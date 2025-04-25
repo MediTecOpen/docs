@@ -73,7 +73,8 @@ Nuestro Project Report se encuentra en el siguiente repositorio de GitHub:
         - Todos: Capitulo 5
 
   <hr>
-   ## Tabla de Contenidos
+
+## Tabla de Contenidos
 
 [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
 
@@ -120,9 +121,10 @@ Nuestro Project Report se encuentra en el siguiente repositorio de GitHub:
 
 [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
   - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
-    - [3.1.1. To-Be Scenario Mapping Turistas nacionales e internacionales](#311-to-Be-scenario-mapping-turistas-nacionales-e-internacionales)
-    - [3.1.2. To-Be Scenario Mapping Agencias de turismo locales](#312-to-Be-scenario-mapping-agencias-de-turismo-locales)
-    - [3.1.3. To-Be Scenario Mapping Viajeros por trabajo](#313-to-Be-scenario-mapping-viajeros-por-trabajo)
+    - [3.1.1. To-Be Scenario Mapping Personas que necesitan Cuidado para un familiar por horas](#311-to-Be-scenario-personas-que-necesitan-cuidado)
+    - [3.1.2. To-Be Scenario Mapping Cuidadores Profesionales](#312-to-Be-scenario-mapping-cuidadores-profesionales)
+
+#### 3.1.2. To-Be Scenario Mapping Cuidadores Profesionales
   - [3.2. User Stories](#32-user-stories)
   - [3.3. Impact Mapping](#33-impact-mapping)
   - [3.4. Product Backlog](#34-product-backlog)
@@ -197,3 +199,177 @@ que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Ou
 |Comunica por escrito con efectividad a diferentes rangos de audiencia| **- Jack Tello** <br> **TB1** Colabore con la elaboración de las pautas y alineamientos que nuestro equipo seguiría durante el proceso de desarrollo de software. Asimismo, me encargue de elaborar el Capitulo 1 y 2. <br> **TP:** <br> **TB2:** <br> **TF:** <br> <br>
 
 <hr>
+
+## Capítulo I: Introducción 
+
+### 1.1. Startup Profile
+
+#### 1.1.1. Descripción de la Startup
+
+#### 1.1.2. Perfiles de Integrantes del Equipo
+
+#### 1.2. Solution Profile
+
+#### 1.2.1. Antecedentes y problemática
+
+#### 1.2.2. Lean UX Process
+
+#### 1.2.2.1. Lean UX Problem Statements
+
+#### 1.2.2.2. Lean UX Assumptions
+
+#### 1.2.2.3. Lean UX Hypothesis Statements
+
+#### 1.2.2.4. Lean UX Canvas
+
+### 1.3. Segmentos Objetivos
+
+## Capítulo II: Requirements Elicitation & Analysis
+
+### 2.1. Competidores
+
+#### 2.1.1. Análisis competitivo
+
+#### 2.1.2. Estrategias y tácticas frente a competidores
+
+### 2.2. Entrevistas
+
+#### 2.2.1. Diseño de entrevistas
+
+#### 2.2.2. Registro de entrevistas
+
+#### 2.2.3. Análisis de entrevistas
+
+### 2.3. Needfinding
+
+#### 2.3.1. User Personas
+
+#### 2.3.2. User Task Matrix
+
+#### 2.3.3. User Journey Mapping
+
+#### 2.3.4. Empathy Mapping
+
+#### 2.3.4.1. Empathy Mapping Turistas nacionales e internacionales
+
+#### 2.3.4.2. Empathy Mapping Agencias de turismo locales
+
+#### 2.3.4.3. Empathy Mapping Viajeros por trabajo
+
+#### 2.3.5. As-is Scenario Mapping
+
+#### 2.3.5.1. As-is Scenario Mapping Turistas nacionales e internacionales
+
+#### 2.3.5.2. As-is Scenario Mapping Agencias de turismo locales
+
+#### 2.3.5.3. As-is Scenario Mapping Viajeros por trabajo
+
+### 2.4. Ubiquitous Language
+
+## Capítulo III: Requirements Specification
+
+### 3.1. To-Be Scenario Mapping
+
+#### 3.1.1. To-Be Scenario Mapping Personas que necesitan Cuidado para un familiar por Horas
+
+#### 3.1.2. To-Be Scenario Mapping Cuidadores Profesionales
+
+### 3.2. User Stories
+
+### 3.3. Impact Mapping
+
+### 3.4. Product Backlog
+
+## Capítulo IV: Product Design
+
+### 4.1. Style Guidelines
+
+#### 4.1.1. General Style Guidelines
+
+#### 4.1.2. Web Style Guidelines
+
+### 4.2. Information Architecture
+
+#### 4.2.1. Organization Systems
+
+#### 4.2.2. Labeling Systems
+
+#### 4.2.3. SEO Tags and Meta Tags
+
+#### 4.2.4. Searching Systems
+
+#### 4.2.5. Navigation Systems
+
+### 4.3. Landing Page UI Design
+
+#### 4.3.1. Landing Page Wireframe
+
+#### 4.3.2. Landing Page Mock-up
+
+### 4.4. Web Applications UX/UI Design
+
+#### 4.4.1. Web Applications Wireframes.
+
+#### 4.4.2. Web Applications Wireflow Diagrams
+
+#### 4.4.3. Web Applications Mock-ups
+
+#### 4.4.4. Web Applications User Flow Diagrams
+
+### 4.5. Web Applications Prototyping
+
+### 4.6. Domain-Driven Software Architecture
+
+#### 4.6.1. Software Architecture Context Diagrams
+
+#### 4.6.2. Software Architecture Container Diagrams
+
+#### 4.6.3. Software Architecture Components Diagrams
+
+### 4.7. Software Object-Oriented Design
+
+#### 4.7.1. Class Diagrams
+
+#### 4.7.2. Class Dictionary
+
+### 4.8. Database Design
+
+#### 4.8.1. Database Diagram
+
+## Capítulo V: Product Implementation, Validation & Deployment
+
+### 5.1. Software Configuration Management.
+
+#### 5.1.1. Software Development Environment Configuration.
+
+#### 5.1.2. Source Code Management
+
+#### 5.1.3. Source Code Style Guide & Conventions
+
+#### 5.1.4. Software Deployment Configuration
+
+### 5.2. Landing Page, Services & Applications Implementation
+
+#### 5.2.1. Sprint 1
+
+##### 5.2.1.1. Sprint Planning 1
+
+##### 5.2.1.2. Aspect Leaders and Collaborators
+
+##### 5.2.1.3. Sprint Backlog 1
+
+##### 5.2.1.4. Development Evidence for Sprint Review
+
+##### 5.2.1.5. Execution Evidence for Sprint Review
+
+##### 5.2.1.6. Services Documentation Evidence for Sprint Review
+
+##### 5.2.1.7. Software Deployment Evidence for Sprint Review
+
+##### 5.2.1.8. Team Collaboration Insights during Sprint
+
+## Conclusiones
+
+## Bibliografía
+
+## Anexos
