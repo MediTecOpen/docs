@@ -63,15 +63,22 @@ Nuestro Project Report se encuentra en el siguiente repositorio de GitHub:
     - Asegurar la integración progresiva, ordenada y sin conflictos del contenido en el informe final.
 
     Además, hemos establecido una convención de nombres para las ramas utilizando el siguiente esquema: cap[numero-capitulo], lo que facilita la identificación de la sección en proceso de edición. Del mismo modo, los mensajes de commit son claros y están formulados siguiendo la semántica de los commits convencionales, lo que mejora la trazabilidad y comprensión del historial de cambios.
+  
 ### Colaboración por Entrega
 
 - **TB1:**
     Para la Primera Entrega (TB1) del Project Report, cada miembro del equipo participó activamente en la redacción de secciones específicas. La coordinación se realizó de forma asincrónica y vía reuniones breves en línea para consensuar estilos de redacción y criterios de inclusión.
 
     - Asignación de secciones por miembro:
-        - Roque Tello, Jack Eddie (UPC-Skylar): Capitulo 1 , Capitulo 2
+        - Roque Tello, Jack Eddie (UPC-Skylar): Capitulo 1 , Capitulo 2, landing page
         - Todos: Capitulo 5
-
+    A continuación, se adjuntan capturas que evidencian el trabajo distribuido:
+    Miembros del equipo en el repositorio:
+        <br>
+        <img src="./assets/evidencias/members.jpeg" alt="team-members" width="800"/>
+    - Creación de ramas por cada capítulo:
+          <img src="./assets/evidencias/branches.jpeg" alt="team-members" width="800"/>
+    - Commits realizados en las ramas individuales:
   <hr>
 
 ## Tabla de Contenidos
