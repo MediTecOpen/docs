@@ -254,6 +254,32 @@ A continuación, se describen los perfiles de los usuarios de los dos segmentos 
 
 #### 2.3.2. User Task Matrix
 
+#### 👩‍👧 User Task Matrix – Personas que necesitan contratar cuidadores por horas para un familiar (Solicitante)
+
+| Tarea                                                          | Frecuencia | Importancia |
+|----------------------------------------------------------------|------------|-------------|
+| Crear perfil como usuario/contratante                          | Ocasional  | Alta        |
+| Buscar y comparar cuidadores disponibles                       | Diaria     | Alta        |
+| Filtrar cuidadores por ubicación, experiencia y disponibilidad | Diaria     | Alta        |
+| Revisar valoraciones y certificaciones de los cuidadores       | Diaria     | Alta        |
+| Agendar servicios de cuidado domiciliario                      | Diaria     | Alta        |
+| Realizar pagos a través de la plataforma                       | Ocasional  | Alta        |
+| Hacer seguimiento al servicio en tiempo real                   | Diaria     | Media       |
+| Calificar al cuidador después del servicio                     | Ocasional  | Media       |
+
+#### 👨‍⚕️ User Task Matrix – Personas que ofrecen su tiempo y conocimientos para cuidar a otros por horas (Cuidador)
+
+| Tarea                                                     | Frecuencia | Importancia |
+|-----------------------------------------------------------|------------|-------------|
+| Crear perfil según certicados                             | Ocasional  | Alta        |
+| Establecer disponibilidad horaria y zonas de atención     | Ocasional  | Alta        |
+| Ver oportunidades laborales cercanas                      | Diaria     | Alta        |
+| Aceptar o rechazar solicitudes de servicios               | Diaria     | Alta        |
+| Comunicar detalles logísticos con el cliente              | Diaria     | Alta        |
+| Registrar historial de servicios realizados               | Ocasional  | Media       |
+| Recibir pagos por los servicios prestados                 | Ocasional  | Alta        |
+| Recibir y responder valoraciones                          | Ocasional  | Media       |
+
 #### 2.3.3. User Journey Mapping
 
 #### 2.3.4. Empathy Mapping
