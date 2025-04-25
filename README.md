@@ -480,6 +480,11 @@ Esta combinación garantiza un flujo de trabajo eficiente y una coordinación ef
 
 | Repository       | Branch        | Commit ID                             | Commit Message                                 | Committed On     |
 |------------------|---------------|----------------------------------------|------------------------------------------------|------------------|
+| Docs      | Cap1        |  5864622…0865a5f                            | Update README.md                                 | 25-04-2025     |
+| Docs      | Cap2        |  752c40d…75ad395                            | feat: add User Persona                                 | 25-04-2025     |
+| Docs      | Cap3        |  be67e9d…c06272d                            | Update README.md                                 | 25-04-2025     |
+| Docs      | Cap4        |  0fc968d…3ad04d1                            | Update README.md                                 | 25-04-2025     |
+| Docs      | Cap5        |  0fc968d…59e5941                            | Capitulo 5 primer commitE.md                                 | 25-04-2025     |
 
 ##### 5.2.1.5. Execution Evidence for Sprint Review
 
