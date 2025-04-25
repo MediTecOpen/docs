@@ -281,16 +281,21 @@ que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Ou
 ### 3.4. Product Backlog
 
 ## Capítulo IV: Product Design
-
 ### 4.1. Style Guidelines
 
 #### 4.1.1. General Style Guidelines
 
+
 #### 4.1.2. Web Style Guidelines
+
 
 ### 4.2. Information Architecture
 
+
+
 #### 4.2.1. Organization Systems
+
+
 
 #### 4.2.2. Labeling Systems
 
@@ -315,6 +320,15 @@ que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Ou
 #### 4.4.3. Web Applications Mock-ups
 
 #### 4.4.4. Web Applications User Flow Diagrams
+
+<img src="assets/fotos/Web Applications User Flow Diagrams.PNG" alt="assets/fotos/Web Applications User Flow Diagrams.PNG" style="width: 80%;">
+
+Segmento objetivo: Solicitantes y Cuidadores 
+
+User goal: Como solicitante, quiero tener la capacidad de encontrar y seleccionar fácilmente a los cuidadores más adecuados para las necesidades de mi familiar.
+Descripción: En el siguiente wireframe se muestra los pasos que debe seguir para encontrar un cuidador.
+
+<img src="assets/fotos/buscar.PNG" alt="assets/fotos/buscar.PNG" style="width: 80%;">
 
 ### 4.5. Web Applications Prototyping
 
