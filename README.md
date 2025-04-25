@@ -408,8 +408,31 @@ Esta sección detalla las herramientas utilizadas durante el desarrollo del soft
 - **Markdown:**  
   Un lenguaje de marcado ligero y sencillo para crear documentos con formato, empleándose para redactar la documentación del proyecto de manera clara y estructurada.
 
-
 #### 5.1.2. Source Code Management
+---
+
+##### 🔧 Gestión de Repositorios en GitHub
+
+El proyecto se desarrolló en **GitHub**, donde se creó una organización dedicada con repositorios específicos para cada módulo del sistema, cada uno estructurado con sus respectivas ramas. Esta plataforma facilitó:
+
+- La gestión del código fuente.
+- El control de versiones.
+- La colaboración entre los desarrolladores.
+
+Durante los próximos **sprints**, se implementará la metodología **Git Flow** para mantener una estructura de trabajo ordenada, permitiendo:
+
+- Una integración controlada de nuevas funcionalidades.
+- Correcciones eficientes.
+- Gestión de lanzamientos estables.
+
+Esta combinación garantiza un flujo de trabajo eficiente y una coordinación efectiva dentro del equipo de desarrollo.
+
+### 📁 Repositorios GitHub
+
+- **Landing Page:** [https://github.com/MediTecOpen/LandingPage](https://github.com/MediTecOpen/LandingPage)
+- **Documentación:** [https://github.com/MediTecOpen/docs](https://github.com/MediTecOpen/docs)
+- **Frontend:** [https://github.com/MediTecOpen/Frontend](https://github.com/MediTecOpen/Frontend)
+
 
 #### 5.1.3. Source Code Style Guide & Conventions
 
