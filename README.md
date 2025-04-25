@@ -322,21 +322,20 @@ que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Ou
 
 #### 4.6.1. Software Architecture Context Diagrams
 
-<img src="https://imgur.com/DHfygaT.PNG" alt="https://imgur.com/DHfygaT.PNG" style="width: 80%;">
+<img src="assets/fotos/Software Architecture Context Diagram.PNG" alt="assets/fotos/Software Architecture Context Diagram.PNG" style="width: 80%;">
 
 #### 4.6.2. Software Architecture Container Diagrams
 
-<img src="https://imgur.com/8KFQlPN.PNG" alt="https://imgur.com/8KFQlPN.PNG" style="width: 80%;">
+<img src="assets/fotos/Software Architecture Container Diagrams.PNG" alt="assets/fotos/Software Architecture Container Diagrams.PNG" style="width: 80%;">
 
 #### 4.6.3. Software Architecture Components Diagrams
 
-<img src="https://imgur.com/k4YXFwU.PNG" alt="https://imgur.com/k4YXFwU.PNG" style="width: 80%;">
+<img src="assets/fotos/Software Architecture Components Diagrams.PNG" alt="assets/fotos/Software Architecture Components Diagrams.PNG" style="width: 80%;">
 
 ### 4.7. Software Object-Oriented Design
-
 #### 4.7.1. Class Diagrams
 
-<img src="https://imgur.com/iOO14ft.PNG" alt="https://imgur.com/iOO14ft.PNG" style="width: 80%;">
+<img src="assets/fotos/CLASS DIAGRAM.PNG" alt="assets/fotos/CLASS DIAGRAM.PNG" style="width: 80%;">
 
 #### 4.7.2. Class Dictionary
 
@@ -504,7 +503,7 @@ enviar() – Envía la notificación al destinatario.
 ### 4.8. Database Design
 #### 4.8.1. Database Diagram
 
-<img src="https://imgur.com/fOCMmgN.PNG" alt="https://imgur.com/fOCMmgN.PNG" style="width: 80%;">
+<img src="assets/fotos/DATABASE DIAGRAM.PNG" alt="assets/fotos/DATABASE DIAGRAM.PNG" style="width: 80%;">
 
 ENTIDADES:
 
