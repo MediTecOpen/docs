@@ -401,7 +401,9 @@ No aplicable para primer sprint.
 
 ##### 5.2.1.7. Software Deployment Evidence for Sprint Review
 
-Vistas del Landing Page desplegado.
+Vistas del Landing Page desplegado en:  https://meditecopen.github.io/LandingPage/#
+
+![Image](assets/evidence/deployment_evidence1)
 
 ##### 5.2.1.8. Team Collaboration Insights during Sprint
 
