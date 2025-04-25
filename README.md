@@ -110,21 +110,11 @@ Nuestro Project Report se encuentra en el siguiente repositorio de GitHub:
     - [2.3.2. User Task Matrix](#232-user-task-matrix)
     - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
     - [2.3.4. Empathy Mapping](#234-empathy-mapping)
-        - [2.3.4.1. Empathy Mapping Turistas nacionales e internacionales](#2341-empathy-mapping-turistas-nacionales-e-internacionales)
-        - [2.3.4.2. Empathy Mapping Agencias de turismo locales](#2342-empathy-mapping-agencias-de-turismo-locales)
-        - [2.3.4.3. Empathy Mapping Viajeros por trabajo](#2343-empathy-mapping-viajeros-por-trabajo)
     - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
-        - [2.3.5.1. As-is Scenario Mapping Turistas nacionales e internacionales](#2351-as-is-scenario-mapping-turistas-nacionales-e-internacionales)
-        - [2.3.5.2. As-is Scenario Mapping Agencias de turismo locales](#2352-as-is-scenario-mapping-agencias-de-turismo-locales)
-        - [2.3.5.3. As-is Scenario Mapping Viajeros por trabajo](#2353-as-is-scenario-mapping-viajeros-por-trabajo)
   - [2.4. Ubiquitous Language](#24-ubiquitous-language)
 
 [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
   - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
-    - [3.1.1. To-Be Scenario Mapping Personas que necesitan Cuidado para un familiar por horas](#311-to-Be-scenario-personas-que-necesitan-cuidado)
-    - [3.1.2. To-Be Scenario Mapping Cuidadores Profesionales](#312-to-Be-scenario-mapping-cuidadores-profesionales)
-
-#### 3.1.2. To-Be Scenario Mapping Cuidadores Profesionales
   - [3.2. User Stories](#32-user-stories)
   - [3.3. Impact Mapping](#33-impact-mapping)
   - [3.4. Product Backlog](#34-product-backlog)
@@ -290,29 +280,19 @@ A continuación, se describen los perfiles de los usuarios de los dos segmentos 
 
 #### 2.3.4. Empathy Mapping
 
-#### 2.3.4.1. Empathy Mapping Turistas nacionales e internacionales
+#### 👩‍👧 Empathy Map – Personas que necesitan contratar cuidadores por horas para un familiar (Solicitante)
+<img src="assets/Empathy_Map_1.png" alt="empathymap1" width= 800/>
 
-#### 2.3.4.2. Empathy Mapping Agencias de turismo locales
-
-#### 2.3.4.3. Empathy Mapping Viajeros por trabajo
+#### 👨‍⚕️ Empathy Map – Personas que ofrecen su tiempo y conocimientos para cuidar a otros por horas (Cuidador)
+<img src="assets/Empathy_Map_1.png" alt="empathymap2" width= 800/>
 
 #### 2.3.5. As-is Scenario Mapping
-
-#### 2.3.5.1. As-is Scenario Mapping Turistas nacionales e internacionales
-
-#### 2.3.5.2. As-is Scenario Mapping Agencias de turismo locales
-
-#### 2.3.5.3. As-is Scenario Mapping Viajeros por trabajo
 
 ### 2.4. Ubiquitous Language
 
 ## Capítulo III: Requirements Specification
 
 ### 3.1. To-Be Scenario Mapping
-
-#### 3.1.1. To-Be Scenario Mapping Personas que necesitan Cuidado para un familiar por Horas
-
-#### 3.1.2. To-Be Scenario Mapping Cuidadores Profesionales
 
 ### 3.2. User Stories
 
