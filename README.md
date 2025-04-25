@@ -282,6 +282,12 @@ A continuación, se describen los perfiles de los usuarios de los dos segmentos 
 
 #### 2.3.3. User Journey Mapping
 
+#### 👩‍👧 User Journey Map – Personas que necesitan contratar cuidadores por horas para un familiar (Solicitante)
+<img src="assets/USER_JOURNEY_1_CUT.png" alt="journeymap1" width= 800/>
+
+#### 👨‍⚕️ User Journey Map – Personas que ofrecen su tiempo y conocimientos para cuidar a otros por horas (Cuidador)
+<img src="assets/USER_JOURNEY_2_CUT.png" alt="journeymap2" width= 800/>
+
 #### 2.3.4. Empathy Mapping
 
 #### 2.3.4.1. Empathy Mapping Turistas nacionales e internacionales
