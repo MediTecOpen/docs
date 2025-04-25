@@ -322,19 +322,146 @@ que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Ou
 
 #### 4.6.1. Software Architecture Context Diagrams
 
+
 #### 4.6.2. Software Architecture Container Diagrams
 
+
+
 #### 4.6.3. Software Architecture Components Diagrams
+
+
 
 ### 4.7. Software Object-Oriented Design
 
 #### 4.7.1. Class Diagrams
+
 
 #### 4.7.2. Class Dictionary
 
 ### 4.8. Database Design
 
 #### 4.8.1. Database Diagram
+
+
+ENTIDADES:
+
+* Usuarios
+Esta entidad representa a las personas que utilizan el sistema. Un usuario puede ser un solicitante, un cuidador, o tener otro rol dentro del sistema.
+
+id: Identificador único del usuario (clave primaria).
+
+nombre: Nombre completo del usuario.
+
+correo: Dirección de correo electrónico del usuario.
+
+contraseña: Contraseña de acceso para autenticar al usuario.
+
+telefono: Número de teléfono del usuario.
+
+rol: Define el tipo de usuario (por ejemplo, "solicitante" o "cuidador").
+
+* Solicitantes
+Los solicitantes son los usuarios que piden servicios a los cuidadores. Esta entidad almacena información sobre los solicitantes y sus métodos de pago.
+
+id_usuario: Referencia al id del usuario (clave foránea).
+
+direccion: Dirección de residencia del solicitante.
+
+metodo_pago_id: Identificador del método de pago utilizado por el solicitante.
+
+* Cuidadores
+Los cuidadores son los usuarios que prestan los servicios solicitados. Esta entidad almacena información sobre sus especialidades, experiencia y disponibilidad.
+
+id_usuario: Referencia al id del usuario (clave foránea).
+
+especialidad: Área en la que el cuidador está especializado.
+
+experiencia: Años de experiencia del cuidador.
+
+disponibilidad: Horarios en los que el cuidador está disponible para ofrecer servicios.
+
+* Servicios
+Esta entidad representa los servicios solicitados por los solicitantes y prestados por los cuidadores. Los servicios incluyen detalles sobre la fecha, estado y duración.
+
+id: Identificador único del servicio (clave primaria).
+
+solicitante_id: Referencia al solicitante que hizo la solicitud.
+
+cuidador_id: Referencia al cuidador que ofrece el servicio.
+
+fecha: Fecha en la que se realiza el servicio.
+
+estado: Estado del servicio (por ejemplo, "pendiente", "completado").
+
+duracion_horas: Duración del servicio en horas.
+
+* Pagos
+Los pagos representan las transacciones realizadas para los servicios prestados. Esta entidad incluye detalles sobre el monto, el tipo de pago y el estado.
+
+id: Identificador único del pago (clave primaria).
+
+servicio_id: Referencia al servicio asociado con este pago.
+
+monto: Monto total del pago.
+
+tipo_pago: Tipo de pago (por ejemplo, "tarjeta de crédito", "efectivo").
+
+estado: Estado del pago (por ejemplo, "completado", "pendiente").
+
+* Reseñas
+Las reseñas son opiniones que los solicitantes pueden dejar sobre los servicios que recibieron de los cuidadores. Cada reseña tiene una puntuación y un comentario.
+
+id: Identificador único de la reseña (clave primaria).
+
+servicio_id: Referencia al servicio sobre el cual se deja la reseña.
+
+puntuación: Puntuación dada al servicio (por ejemplo, del 1 al 5).
+
+comentario: Comentario dejado por el solicitante sobre el servicio.
+
+* Certificaciones
+Los cuidadores pueden tener certificaciones que validan su experiencia o habilidades en ciertas áreas. Esta entidad almacena los detalles de estas certificaciones.
+
+id: Identificador único de la certificación (clave primaria).
+
+cuidador_id: Referencia al cuidador que posee la certificación.
+
+documento: Enlace o nombre del documento que certifica al cuidador.
+
+Institución: Institución que otorga la certificación.
+
+estado: Estado de la certificación (por ejemplo, "válida", "expirada").
+
+*Mensajes
+Los mensajes permiten la comunicación entre los usuarios del sistema (solicitantes, cuidadores, etc.). Esta entidad guarda el contenido de los mensajes enviados entre los usuarios.
+
+id: Identificador único del mensaje (clave primaria).
+
+emisor_id: Referencia al usuario que envía el mensaje.
+
+receptor_id: Referencia al usuario que recibe el mensaje.
+
+contenido: Contenido del mensaje.
+
+fecha: Fecha y hora de envío del mensaje.
+
+* Notificaciones
+Las notificaciones informan a los usuarios sobre eventos importantes en el sistema, como la aceptación de un servicio o un nuevo mensaje. Esta entidad almacena los detalles de esas notificaciones.
+
+id: Identificador único de la notificación (clave primaria).
+
+usuario_id: Referencia al usuario que recibe la notificación.
+
+Título: Título de la notificación.
+
+mensaje: Contenido de la notificación.
+
+fecha: Fecha y hora en que se genera la notificación.
+
+leído: Indicador de si el usuario ha leído la notificación (valor booleano).
+
+Cada entidad tiene una función específica dentro del sistema, y las relaciones entre ellas se dan a través de claves foráneas (FK). Estas claves foráneas permiten conectar a un solicitante con sus servicios, a un cuidador con sus servicios y pagos, y mucho más. Las flechas en el diagrama muestra cómo se interrelacionan estas entidades.
+
 
 ## Capítulo V: Product Implementation, Validation & Deployment
 
