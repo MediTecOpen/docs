@@ -403,7 +403,7 @@ No aplicable para primer sprint.
 
 Vistas del Landing Page desplegado en:  https://meditecopen.github.io/LandingPage/#
 
-![Image](assets/evidence/deployment_evidence1)
+<img src="./assets/evidencias/deployment_evidence1.png" alt="Image"/>
 
 ##### 5.2.1.8. Team Collaboration Insights during Sprint
 
