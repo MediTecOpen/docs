@@ -241,8 +241,16 @@ que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Ou
 #### 2.2.3. Análisis de entrevistas
 
 ### 2.3. Needfinding
+La sección de Needfinding tiene como objetivo identificar las necesidades y problemáticas específicas que enfrentan los usuarios de CareMe, tanto las familias que requieren servicios de cuidado por horas como los profesionales que los ofrecen. A través de entrevistas, observaciones y análisis cualitativos, se busca comprender a profundidad sus motivaciones, frustraciones, contextos y expectativas. Estos hallazgos permitirán diseñar una solución más empática, segura y alineada con los retos reales del entorno.
 
 #### 2.3.1. User Personas
+A continuación, se describen los perfiles de los usuarios de los dos segmentos objetivos identificados. Cada perfil se basa en características reales de los usuarios potenciales y busca representar sus necesidades, deseos y comportamientos clave.
+
+- **Segmento objetivo 1:** Personas que necesitan contratar cuidadores por horas para un familiar.
+<img src="assets/Patricia_UserPersona01.png" alt="userpersona1" width= 800/>
+
+- **Segmento objetivo 2:** Personas que ofrecen su tiempo y conocimientos para cuidar a otros por horas.
+<img src="assets/Luis_UserPersona02.png" alt="userpersona2" width= 800/>
 
 #### 2.3.2. User Task Matrix
 
