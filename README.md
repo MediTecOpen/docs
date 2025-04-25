@@ -457,6 +457,30 @@ Para mantener un código limpio y fácil de mantener, en JavaScript seguimos est
 
 #### 5.1.4. Software Deployment Configuration
 
+   - El desarrollo del **Landing Page** se realiza utilizando HTML, CSS y JavaScript. Estos archivos deben estar en la raíz del repositorio o en la carpeta `docs`, dependiendo de la configuración elegida para GitHub Pages.
+
+3. **Configuración de GitHub Pages:**
+
+   - Dirígete a la configuración del repositorio en GitHub:
+     - Ve a la pestaña `Settings`.
+     - Desplázate hacia abajo hasta la sección **GitHub Pages**.
+     - En el menú desplegable "Source", selecciona la rama `main` o `master` y la carpeta raíz (`/root`) o `docs/` si los archivos están organizados dentro de esa carpeta.
+   - Una vez seleccionado, GitHub Pages generará una URL para acceder a tu sitio web.
+
+4. **Subir y actualizar los archivos al repositorio:**
+
+   - Una vez que los archivos del proyecto estén listos, súbelos al repositorio. Para ello, puedes usar los siguientes comandos:
+     ```bash
+     git add .
+     git commit -m "Subida inicial del proyecto"
+     git push origin main
+     ```
+
+5. **Verificar el despliegue:**
+   - Después de haber configurado GitHub Pages y haber subido los archivos, espera unos minutos para que el sitio se despliegue. GitHub te proporcionará un enlace donde podrás verificar que el sitio web está activo.
+   - En este caso, el **Link del Landing Page desplegado** es:  
+     [Landing Page](https://meditecopen.github.io/LandingPage/)
+
 ### 5.2. Landing Page, Services & Applications Implementation
 
 #### 5.2.1. Sprint 1
