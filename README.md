@@ -354,21 +354,65 @@ que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Ou
 
 ##### 5.2.1.1. Sprint Planning 1
 
+| SPRINT 1 |
+| Sprint Planning Background |
+| **Date**                   | 20-04-2024                                                               |
+| **Time**                   | 18:00 PM                                                                 |
+| **Location**               | Videoconferencia mediante Google Meet                                   |
+| **Prepared By**            | Jack Roque, Johan Bottger, Gabriel Lapa de la Cruz, Juan Santos, Stanley Gutierrez |
+| **Attendees**              | Jack Roque, Johan Bottger, Gabriel Lapa de la Cruz, Juan Santos, Stanley Gutierrez |
+| **Sprint Review Summary**  | N.A.                                                                     |
+| **Sprint Retrospective Summary** | N.A.                                                             |
+| Sprint Goal and User Stories |
+| Item                     | Details                                                                                       |
+|--------------------------|-----------------------------------------------------------------------------------------------|
+| **Goal for Sprint 1**   | Diseñar e implementar el Landing Page con el objetivo de concretar nuestra propuesta de valor. Documentación. |
+| **Sprint 1 Velocity**   | 12                                                                                            |
+| **Sum of Story Points** | 12       
+
+
 ##### 5.2.1.2. Aspect Leaders and Collaborators
 
 ##### 5.2.1.3. Sprint Backlog 1
 
+### Sprint # - Sprint 1
+
+| User Story ID | User Story Title                   | Task ID | Task Title             | Description                                                                                   | Estimation | Assigned         | Status      |
+|---------------|------------------------------------|---------|------------------------|-----------------------------------------------------------------------------------------------|------------|------------------|-------------|
+| 24            | Contenido de Landing Page          | 01      | Estructura             | Desarrollar la estructura del landing page siguiendo los lineamientos de Estilo establecidos | 3 hrs      | Not Yet Assigned | Done        |
+|               |                                    | 02      | Contenido              | Poblar la landing page con información relevante sobre servicio                              | 2 hrs      | Not Yet Assigned | Done        |
+| 23            | Registro desde Landing Page        | 03      | Opción Registrarse     | Implementar funcionalidad de Botón de registro                                                | 2 hrs      | Not Yet Assigned | Done        |
+|               |                                    | 04      | Formulario de Registro | Desarrollar formulario de registro                                                            | 3 hrs      | Not Yet Assigned | To Do       |
+| 22            | Visualizar Contenido por dispositivo | 05     | Responsive Web Page     | Configurar la landing page de manera responsiva para que se adapte a distintos dispositivos  | 2 hrs      | Not Yet Assigned | In progress |
+
+
 ##### 5.2.1.4. Development Evidence for Sprint Review
+
+| Repository       | Branch        | Commit ID                             | Commit Message                                 | Committed On     |
+|------------------|---------------|----------------------------------------|------------------------------------------------|------------------|
 
 ##### 5.2.1.5. Execution Evidence for Sprint Review
 
+Durante este Sprint, se completó la implementación del diseño y la estructura básica de la Landing Page para el proyecto Care me, utilizando los avances de diseño de Figma. A continuación, se presentan las vistas clave de la Landing Page.
+
 ##### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
+No aplicable para primer sprint.
+
 ##### 5.2.1.7. Software Deployment Evidence for Sprint Review
+
+Vistas del Landing Page desplegado.
 
 ##### 5.2.1.8. Team Collaboration Insights during Sprint
 
 ## Conclusiones
+
+-Durante el desarrollo de la Landing Page, el equipo de CareMe ha logrado implementar con éxito las funcionalidades y características planificadas, proporcionando una experiencia de usuario sólida y coherente.
+
+-La implementación de la Landing Page ha permitido al equipo demostrar su capacidad para traducir los requisitos y especificaciones en código funcional, desarrollando una estructura sólida y un diseño visual atractivo.
+
+ -La implementación de la Landing Page ha sentado las bases para el desarrollo de la Web Application, que se espera completar en etapas posteriores del proyecto.
+
 
 ## Bibliografía
 
