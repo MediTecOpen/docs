@@ -354,8 +354,8 @@ que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Ou
 
 ##### 5.2.1.1. Sprint Planning 1
 
-| SPRINT 1 |
-| Sprint Planning Background |
+| SPRINT 1                   |   |
+| Sprint Planning Background |   |
 | **Date**                   | 20-04-2024                                                               |
 | **Time**                   | 18:00 PM                                                                 |
 | **Location**               | Videoconferencia mediante Google Meet                                   |
