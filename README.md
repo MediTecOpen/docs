@@ -224,6 +224,16 @@ Aspiramos a consolidarnos como la solución líder en monitoreo y optimización 
 
 #### 1.2. Solution Profile
 
+En nuestro país, muchas familias tienen a su cargo personas mayores con discapacidad o en situación de dependencia temporal, y enfrentan dificultades al buscar cuidadores confiables y calificados por horas. Esta situación es cada vez más común debido al envejecimiento poblacional, los ritmos laborales actuales y la limitada disponibilidad de redes de apoyo confiables. En este sentido, se vuelve imprescindible contar con una plataforma que facilite el acceso a servicios de cuidado de forma segura, rápida y personalizada.
+Por ello, proponemos CareMe, una aplicación web que funcionará como intermediaria para conectar a personas que necesitan servicios de cuidado por horas con cuidadores profesionales o técnicos de carreras de salud debidamente validados. El objetivo es brindar tranquilidad y eficiencia en la contratación de servicios de cuidado domiciliario por horas.
+Para hacer uso de la app, los usuarios deberán:
+Crear un perfil según su rol (cuidador o contratante)
+
+Podrán elegir entre un apartado de cuidadores disponibles según ubicación, disponibilidad, especialización, experiencia y valoraciones
+
+La app se encargará de intermediar para que el usuario pueda comunicarse, agendar y contratar servicios directamente con el cuidador seleccionado
+Para el funcionamiento de nuestra aplicación se realizarán alianzas con universidades, institutos de salud, cuidadores independientes y centros médicos. Es así que los ingresos de la empresa serán percibidos por una cuota mensual y por comisión sobre los servicios contratados dentro de la plataforma. Sin embargo, dicha modalidad de monetización aún está en proceso de validación, ya que se necesita establecer los ingresos y gastos que se generarían al salir al mercado como empresa formal.
+
 #### 1.2.1. Antecedentes y problemática
 
 #### 1.2.2. Lean UX Process
