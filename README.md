@@ -341,6 +341,73 @@ que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Ou
 ### 5.1. Software Configuration Management.
 
 #### 5.1.1. Software Development Environment Configuration.
+Esta sección detalla las herramientas utilizadas durante el desarrollo del software, organizadas según las distintas fases del proyecto.
+
+---
+
+## 🗂 Project Management
+
+- **[Google Meet](https://meet.google.com/):**  
+  Plataforma utilizada para realizar reuniones virtuales con los miembros del equipo. Permite compartir pantalla, imágenes, texto y video, todo en tiempo real. Es compatible con navegadores web, dispositivos móviles y computadoras, y solo requiere una cuenta activa para su uso.
+
+- **[Trello](https://trello.com/home):**  
+  Herramienta visual para la gestión de tareas del proyecto. Nos permite organizar y hacer seguimiento a tareas pendientes, en proceso y completadas. Su interfaz por tableros facilita la coordinación y visibilidad del avance del equipo. Se accede fácilmente desde un navegador tras crear una cuenta.
+
+---
+
+## 📋 Requirement Management
+
+- **[Trello](https://trello.com/home):**  
+  También lo empleamos para gestionar los requisitos del sistema. Su diseño intuitivo permite trabajar colaborativamente en el backlog, definir prioridades y alinear los objetivos del equipo con las funcionalidades a desarrollar.
+
+---
+
+## 🎨 Product UX/UI Design
+
+- **[UXpressia](https://uxpressia.com/):**  
+  Fue clave para construir perfiles detallados de usuarios, mapear sus emociones, metas y comportamientos mediante herramientas como User Personas, Journey Maps y Empathy Maps.
+
+- **[Figma](https://www.figma.com/):**  
+  Plataforma colaborativa de diseño usada para crear wireframes y mockups. Su facilidad para compartir y editar en tiempo real la convirtió en una herramienta fundamental en el desarrollo de interfaces visuales.
+
+---
+
+## 💻 Software Development
+
+### 🔹 Landing Page
+
+- **Tecnologías utilizadas:**  
+  HTML5, CSS3 y JavaScript.  
+  Se usó **Bootstrap** para lograr un diseño responsivo y acelerar el desarrollo de una interfaz adaptable a diversos dispositivos.
+
+### 🔹 IDEs de desarrollo
+
+- **[Visual Studio Code](https://code.visualstudio.com/):**  
+  Usamos este IDE por su rendimiento, facilidad de uso y herramientas integradas para la edición, depuración y control de versiones. Fue esencial para implementar la landing page de forma ágil y ordenada.
+
+- **[GitHub](https://github.com/):**  
+  Plataforma para alojar el repositorio del proyecto y gestionar el control de versiones del código fuente y la documentación, facilitando la colaboración y el seguimiento de cambios.
+
+---
+
+## 🚀 Software Deployment
+
+- **GitHub Pages:**  
+  Utilizamos GitHub Pages para desplegar la landing page de forma gratuita y directamente desde el repositorio del proyecto. Esta herramienta permite alojar sitios estáticos fácilmente, integrándose con el flujo de trabajo de GitHub y facilitando una publicación continua con cada cambio en el repositorio.
+
+---
+
+## 📝 Software Documentation
+
+- **[Google Drive](https://drive.google.com/drive/home):**  
+  Utilizamos Google Docs para redactar y mantener la documentación del proyecto de forma colaborativa. Esta herramienta facilita la edición en tiempo real entre los miembros del equipo, asegurando que toda la información esté organizada y accesible desde cualquier dispositivo.
+
+- **[Canva](https://www.canva.com/):**  
+  Empleamos Canva para la creación de material visual y presentaciones gráficas del proyecto. Su interfaz sencilla e intuitiva permite diseñar documentos importantes que ayudan a comunicar ideas de forma clara y profesional.
+
+- **Markdown:**  
+  Un lenguaje de marcado ligero y sencillo para crear documentos con formato, empleándose para redactar la documentación del proyecto de manera clara y estructurada.
+
 
 #### 5.1.2. Source Code Management
 
