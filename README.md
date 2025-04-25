@@ -497,6 +497,8 @@ Vistas del Landing Page desplegado en:  https://meditecopen.github.io/LandingPag
 
 ##### 5.2.1.8. Team Collaboration Insights during Sprint
 
+<img src="./assets/evidencias/team_insight1.jpg" alt="Image"/>
+
 ## Conclusiones
 
 -Durante el desarrollo de la Landing Page, el equipo de CareMe ha logrado implementar con éxito las funcionalidades y características planificadas, proporcionando una experiencia de usuario sólida y coherente.
