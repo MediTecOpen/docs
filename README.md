@@ -444,21 +444,20 @@ Esta combinación garantiza un flujo de trabajo eficiente y una coordinación ef
 
 ##### 5.2.1.1. Sprint Planning 1
 
-| SPRINT 1                   |   |
-| Sprint Planning Background |   |
-| **Date**                   | 20-04-2024                                                               |
-| **Time**                   | 18:00 PM                                                                 |
-| **Location**               | Videoconferencia mediante Google Meet                                   |
-| **Prepared By**            | Jack Roque, Johan Bottger, Gabriel Lapa de la Cruz, Juan Santos, Stanley Gutierrez |
-| **Attendees**              | Jack Roque, Johan Bottger, Gabriel Lapa de la Cruz, Juan Santos, Stanley Gutierrez |
-| **Sprint Review Summary**  | N.A.                                                                     |
-| **Sprint Retrospective Summary** | N.A.                                                             |
-| Sprint Goal and User Stories |
-| Item                     | Details                                                                                       |
-|--------------------------|-----------------------------------------------------------------------------------------------|
-| **Goal for Sprint 1**   | Diseñar e implementar el Landing Page con el objetivo de concretar nuestra propuesta de valor. Documentación. |
-| **Sprint 1 Velocity**   | 12                                                                                            |
-| **Sum of Story Points** | 12       
+## SPRINT 1
+
+| Section                        | Item                          | Details                                                                                       |
+|--------------------------------|-------------------------------|-----------------------------------------------------------------------------------------------|
+| **Sprint Planning Background** | **Date**                      | 20-04-2024                                                                                     |
+|                                | **Time**                      | 18:00 PM                                                                                       |
+|                                | **Location**                  | Videoconferencia mediante Google Meet                                                         |
+|                                | **Prepared By**               | Jack Roque, Johan Bottger, Gabriel Lapa de la Cruz, Juan Santos, Stanley Gutierrez            |
+|                                | **Attendees**                 | Jack Roque, Johan Bottger, Gabriel Lapa de la Cruz, Juan Santos, Stanley Gutierrez            |
+|                                | **Sprint Review Summary**     | N.A.                                                                                           |
+|                                | **Sprint Retrospective Summary** | N.A.                                                                                       |
+| **Sprint Goal and User Stories** | **Goal for Sprint 1**        | Diseñar e implementar el Landing Page con el objetivo de concretar nuestra propuesta de valor. Documentación. |
+|                                | **Sprint 1 Velocity**         | 12                                                                                            |
+|                                | **Sum of Story Points**       | 12                                                                                            |
 
 
 ##### 5.2.1.2. Aspect Leaders and Collaborators
