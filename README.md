@@ -228,6 +228,14 @@ que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Ou
 
 #### 2.2.2. Registro de entrevistas
 
+| **Entrevistado 1: Angela Fabiola Ushiñahua Becerra** |
+|------------------------------------------------|
+| <img src="assets/entrevista_angela_1.png" alt="Entrevista1" width=100% /> |
+| Distrito: Villa el Salvador / Edad: 24 |
+| **Entrevistador:** Gabriel Omar Lapa de la Cruz |
+| **Link:** [Entrevista_1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202216831_upc_edu_pe/EStNaAh2GwZEjVHJFG7h4ckB5fxqcFQcsK6kztRR2q22iA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=NRpYpY)|
+| - Resumen: Angela Ushiñahua cuida a su madre, quien sufrió un infarto cerebral y necesita asistencia constante en su alimentación, aseo personal y medicación. Ella expresa una fuerte preocupación al delegar estos cuidados a terceros, temiendo que no sean responsables, pacientes y atentos con las necesidades de su madre. Actualmente recurre a conocidos o páginas web para encontrar cuidadores, pero prefiere personas de confianza.|
+
 #### 2.2.3. Análisis de entrevistas
 
 ### 2.3. Needfinding
