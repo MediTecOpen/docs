@@ -433,8 +433,27 @@ Esta combinación garantiza un flujo de trabajo eficiente y una coordinación ef
 - **Documentación:** [https://github.com/MediTecOpen/docs](https://github.com/MediTecOpen/docs)
 - **Frontend:** [https://github.com/MediTecOpen/Frontend](https://github.com/MediTecOpen/Frontend)
 
-
 #### 5.1.3. Source Code Style Guide & Conventions
+Para asegurar un código ordenado, consistente y alineado con estándares reconocidos, en nuestro proyecto adoptamos las siguientes guías de estilo:
+
+##### 📄 Google HTML/CSS Style Guide
+
+Esta guía nos permite escribir HTML y CSS de forma clara y estructurada. Entre las convenciones aplicadas se encuentran:
+
+- Utilizar **dos espacios para la indentación** en HTML y CSS, favoreciendo la claridad sin generar líneas excesivamente anchas.
+- Seguir un **orden lógico en los selectores CSS**: primero los de tipo, luego los ID y finalmente las clases.
+- **Nombrar clases** con términos breves pero descriptivos, usando **guiones bajos** como separadores (por ejemplo: `form_container`).
+- Agregar **comentarios puntuales** para explicar reglas CSS que podrían no ser evidentes de inmediato.
+
+##### 🧠 Google JavaScript Style Guide
+
+Para mantener un código limpio y fácil de mantener, en JavaScript seguimos estas buenas prácticas:
+
+- Declarar variables **inmutables con `const`** y variables que pueden cambiar con `let`, evitando el uso de `var` para prevenir ambigüedades de alcance.
+- Usar **camelCase** para nombrar variables, funciones y métodos, mejorando la legibilidad.
+- Ubicar las **declaraciones de variables al inicio** de funciones o bloques para evitar problemas por hoisting.
+- Priorizar **funciones con nombre** en lugar de funciones anónimas para facilitar el rastreo de errores y mejorar la depuración.
+- Emplear **template strings** (`` `Hola, ${nombre}` ``) para concatenar textos de forma más limpia y legible cuando se insertan expresiones.
 
 #### 5.1.4. Software Deployment Configuration
 
