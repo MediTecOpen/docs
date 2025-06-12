@@ -48,7 +48,7 @@ Producto: CareMe
 | TP1     | 16/05/2025     | Roque Tello, Jack Eddie     | Se aplicaron las correcciones de la retroalimentación en la TB1 y se desarrollo la frontend application, ademas de los siguientes puntos del Capítulo V: Product Implementation, Validation & Deployment (Sprint 2, Sprint Planning2, Aspects Leaders and Collaborators, Sprint Backlog 2, Development Evidence for Sprint Review, Execution Evidence for Sprint Review, Services Documentation Evidence for Sprint Review, Software Deployment Evidence for Sprint Review, Team Collaboration Insights during Sprint, Team Collaboration Insights during Sprint, Avance de Conclusiones, Bibliografía y Anexos)  |
 | TB2     | 12/06/2025     | Roque Tello, Jack Eddie     | Se mejoro la landing page, se agregaron nuevas funcionalidades a la front-end web application y se desarrollaron los siguientes puntos: Sprint 3, Sprint Planning 3, Aspect Leaders and Collaborators, Development Evidence for Sprint Review, Execution Evidence for Sprint Review, Services Documentation Evidence for Sprint Review, Software Deployment Evidence for Sprint Review, Team Collaboration Insights during Sprint, Validation Interviews, Diseño de Entrevistas, Registro de Entrevistas, Evaluaciones según heurísticas, Video About-the-Product.|
 
-# STUDENT OUTCOME
+# Student Outcome
 
 | Criterio Específico | Acciones realizadas | Conclusiones |
 | -------- | -------- | -------- |
