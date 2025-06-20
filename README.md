@@ -73,7 +73,13 @@
 ## 3.3. Impact Mapping
 En esta sección se describen y muestran los Impact Mappings, los cuales fueron desarrollados a partir de los User Personas. Estos mapas incluyen los objetivos de negocio de cada uno y permiten identificar las funcionalidades necesarias para generar los entregables definidos.
 
+## Impact Mapping 1 – CareMe
 
+![Impact Mapping de CareMe](https://i.imgur.com/lJjB3mV.png)
+
+## Impact Mapping 2 – CareMe 
+
+![Impact Mapping Versión 2 de CareMe](https://i.imgur.com/Gz7PsMN.png)
 
 ---
 
@@ -81,30 +87,33 @@ En esta sección se describen y muestran los Impact Mappings, los cuales fueron 
 
 A continuación, el backlog priorizado de funcionalidades agrupadas por épicas y con asignación de Story Points:
 
-| #  | USER STORY ID | TÍTULO                                         | STORY POINTS |
-|----|----------------|------------------------------------------------|---------------|
-| 1  | HU01-EP01      | Buscar cuidadores ingresando dirección         | 3             |
-| 2  | HU02-EP01      | Ajustar radio de búsqueda                      | 2             |
-| 3  | HU03-EP01      | Mostrar estado de actividad del cuidador       | 1             |
-| 4  | HU04-EP01      | Buscar cuidadores usando ubicación actual      | 3             |
-| 5  | HU01-EP02      | Acceder a la página de registro                | 1             |
-| 6  | HU02-EP02      | Registrarse como solicitante                   | 5             |
-| 7  | HU03-EP02      | Ver mi perfil                                  | 2             |
-| 8  | HU01-EP03      | Cancelar un servicio programado                | 3             |
-| 9  | HU02-EP03      | Ver historial de servicios completados         | 2             |
-| 10 | HU03-EP03      | Confirmar asistencia a un servicio             | 2             |
-| 11 | HU04-EP03      | Marcar servicio como completado                | 2             |
-| 12 | HU01-EP04      | Iniciar conversación                           | 5             |
-| 13 | HU02-EP04      | Recibir notificación de nuevo mensaje          | 3             |
-| 14 | HU01-EP05      | Gestión de pagos y transacciones               | 2             |
-| 15 | HU02-EP05      | Realizar pago y recibir confirmación           | 5             |
-| 16 | HU03-EP05      | Recibir pago por servicio                      | 3             |
-| 17 | HU04-EP05      | Configurar método de retiro                    | 5             |
-| 18 | HU01-EP06      | Acceder a preguntas frecuentes                 | 1             |
-| 19 | HU02-EP06      | Buscar en la sección de ayuda                  | 3             |
-| 20 | HU03-EP06      | Contactar soporte por chat en vivo             | 8             |
-| 21 | HU04-EP06      | Contactar soporte por correo electrónico       | 2             |
-| 22 | HU01-EP07      | Operaciones CRUD                               | 8             |
+## Historias de Usuario Priorizadas – CareMe
+
+| #  | User Story ID | Título                                           | Descripción                                                                                                                                                                  | Story Points |
+|----|----------------|--------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|
+| 1  | HU01-EP01      | Buscar cuidadores ingresando dirección          | Como solicitante, deseo buscar cuidadores ingresando una dirección específica para encontrar opciones cercanas a mi domicilio.                                              | 3            |
+| 2  | HU02-EP01      | Ajustar radio de búsqueda                       | Como solicitante, deseo poder ajustar el radio de búsqueda para ampliar o reducir el área de cobertura.                                                                     | 2            |
+| 3  | HU03-EP01      | Mostrar estado de actividad del cuidador        | Como solicitante, deseo ver claramente si un cuidador está actualmente activo o no en la plataforma.                                                                        | 1            |
+| 4  | HU04-EP01      | Buscar cuidadores usando mi ubicación actual    | Como solicitante, deseo buscar cuidadores utilizando la ubicación actual de mi dispositivo para encontrar opciones cercanas a donde me encuentro.                          | 3            |
+| 5  | HU01-EP02      | Acceder a la página de registro de solicitante  | Como nuevo usuario, deseo acceder a una página específica para registrarme como solicitante.                                                                                | 1            |
+| 6  | HU02-EP02      | Registrarse como solicitante proporcionando información básica | Como nuevo usuario, deseo registrarme como solicitante proporcionando mi nombre, correo electrónico y número de teléfono, y estableciendo una contraseña.          | 5            |
+| 7  | HU03-EP02      | Ver mi perfil                                   | Como solicitante registrado, deseo poder acceder a la sección de mi perfil para revisar la información que he proporcionado.                                               | 2            |
+| 8  | HU01-EP03      | Cancelar un servicio programado                 | Como solicitante, deseo poder cancelar un servicio de cuidado programado en caso de necesidad, siguiendo las políticas de cancelación.                                      | 3            |
+| 9  | HU02-EP03      | Ver el historial de servicios completados       | Como solicitante, deseo poder ver un registro de los servicios de cuidado que ya se han completado.                                                                         | 2            |
+| 10 | HU03-EP03      | Confirmar asistencia a un servicio programado   | Como cuidador, deseo poder confirmar mi asistencia a un servicio de cuidado programado antes de la fecha y hora de inicio.                                                  | 2            |
+| 11 | HU04-EP03      | Marcar un servicio como completado              | Como cuidador, deseo poder marcar un servicio de cuidado como completado una vez que lo haya finalizado.                                                                   | 2            |
+| 12 | HU01-EP04      | Iniciar conversación                            | Como solicitante o cuidador, deseo poder iniciar una conversación con un cuidador específico después de verlo en la lista de búsqueda o en su perfil.                     | 5            |
+| 13 | HU02-EP04      | Recibir notificación de nuevo mensaje del cuidador | Como solicitante, deseo recibir una notificación clara cuando un cuidador me envíe un nuevo mensaje para poder responder rápidamente.                                | 3            |
+| 14 | HU01-EP05      | Gestión de Pagos y Transacciones                | Como solicitante, quiero ver las opciones de pago disponibles antes de confirmar un servicio. <br><br>Como cuidador, quiero ver las opciones de retiro de fondos.           | 2            |
+| 15 | HU02-EP05      | Realizar pago y recibir confirmación            | Como solicitante, quiero realizar un pago de forma segura y recibir una confirmación exitosa.                                                                               | 5            |
+| 16 | HU03-EP05      | Recibir pago por servicio completado            | Como cuidador, quiero recibir el pago por los servicios que he completado de forma segura a través de la plataforma.                                                        | 3            |
+| 17 | HU04-EP05      | Configurar método de retiro y solicitar retiro  | Como cuidador, quiero configurar mi método de retiro y solicitar la transferencia de mis fondos disponibles.                                                                | 5            |
+| 18 | HU01-EP06      | Acceder a preguntas frecuentes                  | Como usuario (solicitante o cuidador), quiero acceder a una lista de preguntas frecuentes para encontrar respuestas rápidas sobre el uso de la plataforma.                  | 1            |
+| 19 | HU02-EP06      | Buscar en la sección de ayuda                   | Como usuario (solicitante o cuidador), quiero poder buscar información específica dentro de la sección de ayuda utilizando palabras clave.                                 | 3            |
+| 20 | HU03-EP06      | Contactar con el soporte a través de chat en vivo | Como usuario (solicitante o cuidador), quiero poder contactar con un agente de soporte a través de chat en vivo para obtener asistencia inmediata.                   | 8            |
+| 21 | HU04-EP06      | Contactar con el soporte a través de correo electrónico | Como usuario (solicitante o cuidador), quiero poder contactar con el soporte a través de correo electrónico para dudas más complejas.                              | 2            |
+| 22 | HU01-EP07      | Operaciones CRUD                                | Como usuario, quiero poder manejar la aplicación con las operaciones básicas de crear, leer, actualizar y borrar.                                                           | 8            |
+
 
 ---
 
