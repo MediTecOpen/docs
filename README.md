@@ -274,7 +274,23 @@ establecer una presencia sólida en línea
 | US23                | Registro desde Landing Page    | DADO QUE el usuario está en el landing page de CareMe, CUANDO hace clic en “Iniciar sesión” o “Registrarse”, ENTONCES el sistema lo redirige al formulario correspondiente.  |
 | US22                | Diseño responsive              | DADO QUE el usuario está en el landing page de CareMe, CUANDO accede desde un dispositivo móvil o escritorio, ENTONCES el sistema adapta el diseño correctamente.            |
 
+Evidencias visuales:
 
+[![Captura.png](https://i.postimg.cc/jdYrtjKd/Captura.png)](https://postimg.cc/YjRPxMhJ)
+
+[![Captura2.png](https://i.postimg.cc/ZqRGVBPj/Captura2.png)](https://postimg.cc/DS9pzzMb)
+
+[![captura-3.png](https://i.postimg.cc/BvVdySM3/captura-3.png)](https://postimg.cc/KKtq3y6p)
+
+[![captura-4.png](https://i.postimg.cc/dtYggSmh/captura-4.png)](https://postimg.cc/w3wWm2rz)
+
+[![Captura-5.png](https://i.postimg.cc/FHPqdFtS/Captura-5.png)](https://postimg.cc/21ZTgDSj)
+
+[![Captura-6.png](https://i.postimg.cc/SR71yk7J/Captura-6.png)](https://postimg.cc/Cn5s7y2g)
+
+[![Captura-7.png](https://i.postimg.cc/J4MdpHMJ/Captura-7.png)](https://postimg.cc/9zgpMM4F)
+
+[![Captura-8.png](https://i.postimg.cc/zGPtDdWS/Captura-8.png)](https://postimg.cc/jDPQZ4ML)
 5.2.1.6. Services Documentation Evidence for Sprint Review.
 
 En este Sprint, el foco estuvo centrado exclusivamente en el desarrollo del frontend estático (Landing Page) del proyecto CareMe. Por esta razón, no se han trabajado endpoints ni funcionalidades relacionadas con servicios web o APIs RESTful.
@@ -371,9 +387,49 @@ Gracias a estas implementaciones, la plataforma se vuelve más interactiva, acce
 
 Para el desarrollo del proyecto hemos seguido la estructura enseñada en clase y los principios de Domain-Driven-Design:
 
+[![review.png](https://i.postimg.cc/Y03R58MF/review.png)](https://postimg.cc/n9Xq74sV)
+
+[![review-2.png](https://i.postimg.cc/TYdCV8JJ/review-2.png)](https://postimg.cc/gr7VpT5x)
+
+Se ha cumplido con la i18n-internationalization usando ngx-translate
+
+[![reviiew-3.png](https://i.postimg.cc/0Q1CrhNm/reviiew-3.png)](https://postimg.cc/WDSZHWgb)
+
+Se ha utilizado layout como vista principal y se ha implementado el método setLanguage
+
+[![review-4.png](https://i.postimg.cc/BbqcBDHn/review-4.png)](https://postimg.cc/0MBw8zVT)
+
+Se ha seguido las indicaciones de la documentación de Angular Routing para vincular las rutas
+
+[![ruts.png](https://i.postimg.cc/xjRPTxVJ/ruts.png)](https://postimg.cc/9zD9LBMC)
+
+[![Captura8.png](https://i.postimg.cc/P5BWF0Yc/Captura8.png)](https://postimg.cc/Hr98rZS4)
+
+Se desarrolló una API para la sección de Contacto, el usuario podra complementar el formulario y se realizara un metodo POST a nuestro dominio de API.
+
+[![beeceptor.png](https://i.postimg.cc/xT8Lj9Ph/beeceptor.png)](https://postimg.cc/SJ0nDF3f)
+
+[![mookiong.png](https://i.postimg.cc/50fFhJ0P/mookiong.png)](https://postimg.cc/PLFxDB1Z)
+
+El API se integro a la aplicación en domains/services, conforme a lo enseñado en clase careme-api.service.ts
+
+[![contact.png](https://i.postimg.cc/3J0WbN18/contact.png)](https://postimg.cc/ppx2m234)
+
+En su componente de typescrit, se integra la api de CareMe para que el usuario pueda realizar el metodo POST.
+
+[![githuw.png](https://i.postimg.cc/mkHRVzsK/githuw.png)](https://postimg.cc/YLMJCSjx)
+
+El resto del código se puede visualizar en: https://github.com/MediTecOpen/frontend-angular
+
 5.2.2.5.Execution Evidence for Sprint Review
 
 Durante el Sprint 2 se avanzó de forma significativa en el desarrollo e implementación de la Frontend Web Application de CareMe, cumpliendo con los objetivos establecidos en el Sprint Goal. A continuación, se detallan las evidencias que respaldan el trabajo realizado:
+
+[![careme.png](https://i.postimg.cc/ZKP0hgG2/careme.png)](https://postimg.cc/crHdRD4B)
+
+[![careme2.png](https://i.postimg.cc/PJsfgz2d/careme2.png)](https://postimg.cc/R6dzftkY)
+
+[![care.png](https://i.postimg.cc/Hsms3zr2/care.png)](https://postimg.cc/5jPV2wqY)
 
 5.2.2.6.Services Documentation Evidence for Sprint Review
 
@@ -423,8 +479,9 @@ soporte para múltiples idiomas, lo que facilita su uso para una amplia variedad
 
 5.2.2.7.Software Deployment Evidence for Sprint Review
 
-
 Se utilizo GitHub pages para el despliegue de nuestra aplicación
+
+[![evidence.png](https://i.postimg.cc/CxPhhVmP/evidence.png)](https://postimg.cc/zyhZ74mK)
 
 5.2.2.8.Team Collaboration Insights during Sprint
 
@@ -565,6 +622,10 @@ Se usará Spring Boot con Java como lenguaje base y MySQL como gestor de base de
 
 Aquí presentamos nuestra metodología para el diseño y actualización continua del Back-end.
 
+[![api.png](https://i.postimg.cc/0Nz8rH48/api.png)](https://postimg.cc/R3zrDG98)
+
+[![cavigers.png](https://i.postimg.cc/KjDbdX15/cavigers.png)](https://postimg.cc/GTt6y5JB)
+
 Historial de commits:
 
 ##  Evidencia de Commits - Repositorio `MediTecOpen/backend`
@@ -584,6 +645,10 @@ Historial de commits:
 El tercer sprint alcanzó el objetivo propuesto del desarrollo del backend de la aplicación. Fueron implementadas exitosamente las operaciones CRUD para las funcionalidades Authentication, Caregivers Profile Management y Contact Service, utilizando Spring Boot y MySQL. Cada operación (Create,
  
 Read, Update, Delete) fue desarrollada y validada individualmente por los responsables asignados.
+
+[![sprint.png](https://i.postimg.cc/x1CQF4nK/sprint.png)](https://postimg.cc/HVfFr3Jx)
+
+[![sprint-review.png](https://i.postimg.cc/xCrS8jHR/sprint-review.png)](https://postimg.cc/JyQFdLpD)
 
 5.2.3.6. Services Documentation Evidence for Sprint Review.
 
@@ -620,6 +685,8 @@ Users Authentication Endpoints:
 | `/users/{id}`       | Eliminar usuario              | `DELETE`         | `/api/v1/users/{id}`         | `id` (Path)                                                                     |
 
 
+[![reviewww.png](https://i.postimg.cc/y6yz6HNm/reviewww.png)](https://postimg.cc/G9tfz6Gt)
+
 5.2.3.7. Software Deployment Evidence for Sprint Review
 
 Durante el Sprint 3 se configuró y desplegó el backend del sistema en un entorno de desarrollo local y en pruebas en la nube. Se creó una base de datos MySQL en un servidor remoto y se configuraron las variables de entorno necesarias para el correcto despliegue del API con Spring Boot.
@@ -639,6 +706,8 @@ https://meditecopen.github.io/LandingPage/
 5.2.3.8. Team Collaboration Insights during Sprint.
 
 Durante este Sprint, el equipo trabajó de forma colaborativa para desarrollar las funcionalidades clave del backend. Se realizaron reuniones semanales mediante Google Meet para coordinar tareas y resolver dudas técnicas.
+
+[![gity.png](https://i.postimg.cc/jdDvgHBD/gity.png)](https://postimg.cc/BXGxtKS3)
 
 
 5.3.     Validation Interviews.
@@ -699,6 +768,39 @@ Link de video: https://youtu.be/HlF42O9C77A
 Resumen: Angela observó el recorrido de la aplicación CareMe, pensada para conectar a familias con cuidadores. Ella tiene un familiar con discapacidad y valoró la propuesta como útil y clara. Comentó que actualmente recurre a conocidos o internet para buscar apoyo, pero le preocupa delegar
 
  el cuidado a personas desconocidas. Considera importante contar con una plataforma segura, fácil de usar y que inspire confianza para encontrar cuidadores responsables.
+
+Entrevistado 2: Diego Cacho Seminario
+
+Distrito:  Surco
+
+Entrevistador: Johan Bottger
+
+Link de video:Entrevista Segmento Objetivo Contratista.mkv
+
+Resumen: El entrevistado tuvo una reacción positiva al diseño de la aplicación. En especial destacando la funcionalidad bilingüe ubicada desde la landing page. Igualmente, considera el sistema una funcionalidad útil y aceptó que recomendaría el producto a otros usuarios de su contexto.
+
+Segmento 2: Personas que ofrecen su tiempo y conocimientos para cuidar a otros por horas (Cuidador)
+Entrevistado : 
+
+Distrito:  Surco / Edad: 61
+
+Entrevistador: Juan Manuel Santos Torres
+
+Link de video: https://www.youtube.com/watch?v=zv2f3xmF5BM 
+
+Resumen: Carlos opina que la plataforma CareMe es excelente, ya que simplifica el contacto con familias y mejora las oportunidades laborales para cuidadores certificados. La interfaz es intuitiva y genera confianza al registrar cada paso del proceso. Además, considera que facilita mejores 
+
+condiciones laborales y recomienda su uso a otros profesionales del sector.
+
+5.4.  Video About-the-Product.
+
+Enlace a Youtube: https://youtu.be/5khP2gP1o6c
+
+  5.5.  Video About-the-Tea
+m
+Enlace a Youtube: https://youtu.be/5khP2gP1o6c
+
+Video About The Team.mp4
 
 
 *ANEXOS
