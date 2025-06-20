@@ -158,22 +158,22 @@ punto de contacto con los usuarios, permitiendo validar las ideas iniciales del 
  del proyecto.
 
 
-## 📝 Sprint 1 - Planning Summary
+##  Sprint 1 - Planning Summary
 
 | **Elemento**                        | **Detalle**                                                                                                   |
 |------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | **Sprint Planning Background**     |                                                                                                               |
-| 📅 **Date**                         | 20-04-2024                                                                                                    |
-| 🕕 **Time**                         | 18:00 PM                                                                                                      |
-| 📍 **Location**                     | Videoconferencia mediante Google Meet                                                                         |
-| 🧾 **Prepared By**                  | Jack Roque, Johan Bottger, Gabriel Lapa de la Cruz, Juan Santos, Stanley Gutierrez                            |
-| 👥 **Attendees**                    | Jack Roque, Johan Bottger, Gabriel Lapa de la Cruz, Juan Santos, Stanley Gutierrez                            |
+|  **Date**                         | 20-04-2024                                                                                                    |
+|  **Time**                         | 18:00 PM                                                                                                      |
+|  **Location**                     | Videoconferencia mediante Google Meet                                                                         |
+|  **Prepared By**                  | Jack Roque, Johan Bottger, Gabriel Lapa de la Cruz, Juan Santos, Stanley Gutierrez                            |
+|  **Attendees**                    | Jack Roque, Johan Bottger, Gabriel Lapa de la Cruz, Juan Santos, Stanley Gutierrez                            |
 | **Sprint n Review Summary**        | N.A.                                                                                                          |
 | **Sprint n Retrospective Summary** | N.A.                                                                                                          |
 
 ---
 
-### 🎯 Sprint Goal and User Stories
+###  Sprint Goal and User Stories
 
 Nuestro enfoque está en diseñar e implementar una página de inicio (landing page) responsiva y fácil de usar, con secciones claras para cuidadores, personas dependientes, contacto, sobre nosotros, ayuda e inicio de sesión/registro.
 
@@ -185,8 +185,8 @@ Esto se confirmará cuando la landing page esté completamente funcional, optimi
 
 | **Métrica**               | **Valor** |
 |---------------------------|-----------|
-| 🔢 **Sprint 1 Velocity**   | 12        |
-| 📌 **Sum of Story Points**| 12        |
+|  **Sprint 1 Velocity**   | 12        |
+|  **Sum of Story Points**| 12        |
 
 5.2.1.2. Aspect Leaders and Collaborators.
 
@@ -204,7 +204,7 @@ En el Sprint 1 se definieron los siguientes aspectos clave para la implementaci�
 
 A continuación la matriz de Liderazgo y Colaboración (LACX), donde “L” indica el líder de cada aspecto y “C” a sus colaboradores:
 
-## 👨‍💻 Asignación de Roles del Equipo
+##  Asignación de Roles del Equipo
 
 | **Miembro del Equipo**               | **Usuario GitHub** | **UI/UX Design** | **HTML/CSS** | **JavaScript** | **Servicios** | **Despliegue** |
 |-------------------------------------|--------------------|------------------|--------------|----------------|----------------|----------------|
@@ -226,7 +226,7 @@ El Sprint Backlog 1 representa la lista de tareas y elementos de trabajo prioriz
 
  para dispositivos móviles.
 
-## ✅ Sprint 1 - Tareas y Progreso
+##  Sprint 1 - Tareas y Progreso
 
 | **User Story ID** | **Título Historia de Usuario**      | **Task ID** | **Título de Tarea**       | **Descripción**                                                                 | **Estimación** | **Asignado a**                | **Estado** |
 |-------------------|-------------------------------------|-------------|----------------------------|----------------------------------------------------------------------------------|----------------|-------------------------------|------------|
@@ -266,7 +266,7 @@ Durante el Sprint 1, se logró implementar completamente la landing page de la a
 
 establecer una presencia sólida en línea
 
-## ✅ Historias de Usuario - Sprint 1
+##  Historias de Usuario - Sprint 1
 
 | **Epic / Story ID** | **Título**                     | **Criterios de Aceptación**                                                                                                                                                   |
 |---------------------|--------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -318,17 +318,17 @@ las oportunidades de mejora en la colaboración.
 
 | **Elemento**                        | **Detalle**                                                                                                               |
 |------------------------------------|---------------------------------------------------------------------------------------------------------------------------|
-| 📅 **Fecha**                        | 13-05-2024                                                                                                                |
-| 🕕 **Hora**                         | 17:00 PM                                                                                                                  |
-| 📍 **Lugar**                        | Videoconferencia mediante Google Meet                                                                                     |
-| 🧾 **Preparado por**                | Roque Tello, Jack Eddie                                                                                                   |
-| 👥 **Participantes**                | Roque Tello, Jack Eddie                                                                                                   |
-| ✅ **Resumen Sprint 1 Review**      | Implementación de la aplicación web (Business Website) de CareMe.                                                         |
-| 🔁 **Resumen Sprint 1 Retrospective** | Si bien hubo complicaciones en las coordinaciones grupales con el equipo, se logró cumplir con todos los requisitos. Para mejorar, se sugiere mayor compromiso y comunicación. |
+|  **Fecha**                        | 13-05-2024                                                                                                                |
+|  **Hora**                         | 17:00 PM                                                                                                                  |
+| **Lugar**                        | Videoconferencia mediante Google Meet                                                                                     |
+|  **Preparado por**                | Roque Tello, Jack Eddie                                                                                                   |
+|  **Participantes**                | Roque Tello, Jack Eddie                                                                                                   |
+|  **Resumen Sprint 1 Review**      | Implementación de la aplicación web (Business Website) de CareMe.                                                         |
+|  **Resumen Sprint 1 Retrospective** | Si bien hubo complicaciones en las coordinaciones grupales con el equipo, se logró cumplir con todos los requisitos. Para mejorar, se sugiere mayor compromiso y comunicación. |
 
 ---
 
-### 🎯 Objetivo del Sprint 2 y User Stories
+###  Objetivo del Sprint 2 y User Stories
 
 > Nuestro enfoque está en desarrollar y desplegar la primera versión de la aplicación web Frontend, con soporte multilenguaje y funcionalidades CRUD, incluyendo también una nueva versión de la landing page.  
 
@@ -340,8 +340,8 @@ las oportunidades de mejora en la colaboración.
 
 | **Métrica**               | **Valor** |
 |---------------------------|-----------|
-| 🔢 **Sprint 2 Velocity**   | 12        |
-| 📌 **Sumatoria de Story Points** | 12        |
+|  **Sprint 2 Velocity**   | 12        |
+| **Sumatoria de Story Points** | 12        |
 
 
  5.2.2.2. Aspect Leaders and Collaborators
@@ -357,7 +357,7 @@ Gracias a estas implementaciones, la plataforma se vuelve más interactiva, acce
 
  5.2.2.3.Sprint Backlog 2
 
-## ✅ Sprint 2 - Tareas y Progreso
+## Sprint 2 - Tareas y Progreso
 
 | **User Story ID** | **Título Historia de Usuario**                 | **Task ID** | **Título de Tarea**                          | **Descripción**                                                                                                       | **Estimación** | **Asignado a**                 | **Estado** |
 |-------------------|------------------------------------------------|-------------|-----------------------------------------------|------------------------------------------------------------------------------------------------------------------------|----------------|-------------------------------|------------|
@@ -486,21 +486,21 @@ En esta sección se detalla el proceso de planificación correspondiente al terc
 
 se identificaron las tareas específicas, se asignaron responsables y se estableció el Sprint Backlog correspondiente, con el fin de asegurar un avance ordenado y colaborativo en el cumplimiento de las metas propuestas.
 
-## 📝 Sprint 3 - Resumen de Planeación
+##  Sprint 3 - Resumen de Planeación
 
 | **Elemento**                        | **Detalle**                                                                                                                       |
 |------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
-| 📅 **Fecha**                        | 16-06-2024                                                                                                                        |
-| 🕕 **Hora**                         | 18:00 PM                                                                                                                          |
-| 📍 **Lugar**                        | Videoconferencia mediante Google Meet                                                                                             |
-| 🧾 **Preparado por**                | Jack Roque, Johan Bottger, Gabriel Lapa de la Cruz, Juan Santos, Stanley Gutierrez                                               |
-| 👥 **Participantes**                | Jack Roque, Johan Bottger, Gabriel Lapa de la Cruz, Juan Santos, Stanley Gutierrez                                               |
-| ✅ **Resumen Sprint 2 Review**      | Desarrollo del frontend con Angular y herramientas clave: Beeceptor (endpoints de prueba), ngx-translate (i18n), Angular Material y Router. |
-| 🔁 **Resumen Sprint 2 Retrospective** | Se reconoció que faltaron funcionalidades para completar la experiencia web. Se planteó fortalecer el frontend y mejorar la comunicación y compromiso grupal. |
+|  **Fecha**                        | 16-06-2024                                                                                                                        |
+|  **Hora**                         | 18:00 PM                                                                                                                          |
+|  **Lugar**                        | Videoconferencia mediante Google Meet                                                                                             |
+|  **Preparado por**                | Jack Roque, Johan Bottger, Gabriel Lapa de la Cruz, Juan Santos, Stanley Gutierrez                                               |
+|  **Participantes**                | Jack Roque, Johan Bottger, Gabriel Lapa de la Cruz, Juan Santos, Stanley Gutierrez                                               |
+|  **Resumen Sprint 2 Review**      | Desarrollo del frontend con Angular y herramientas clave: Beeceptor (endpoints de prueba), ngx-translate (i18n), Angular Material y Router. |
+|  **Resumen Sprint 2 Retrospective** | Se reconoció que faltaron funcionalidades para completar la experiencia web. Se planteó fortalecer el frontend y mejorar la comunicación y compromiso grupal. |
 
 ---
 
-### 🎯 Objetivo del Sprint 3 y User Stories
+###  Objetivo del Sprint 3 y User Stories
 
 > Nuestro enfoque está en implementar el backend para autenticación de usuarios, gestión de perfiles de cuidadores y funcionalidad de contacto.  
 > Creemos que esto entregará funcionalidades críticas y una mejor experiencia tanto para empresas como usuarios individuales.  
@@ -510,8 +510,8 @@ se identificaron las tareas específicas, se asignaron responsables y se estable
 
 | **Métrica**               | **Valor** |
 |---------------------------|-----------|
-| 🔢 **Sprint 3 Velocity**   | 36 SP     |
-| 📌 **Sumatoria de Story Points** | 36 SP     |
+|  **Sprint 3 Velocity**   | 36 SP     |
+|  **Sumatoria de Story Points** | 36 SP     |
 
 
 5.2.3.2. Aspect Leaders and Collaborators
