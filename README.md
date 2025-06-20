@@ -296,7 +296,339 @@ Link Figma: https://www.figma.com/design/zGaYnTarmHelTTlLmd3mZy/Untitled?node-id
 
 4.4.3. Web Applications User Flow Diagrams.
  
+[![diagramas.png](https://i.postimg.cc/VsdhS0mW/diagramas.png)](https://postimg.cc/PNny9xLC)
+
+Segmento objetivo: Solicitantes y Cuidadores 
+
+User goal: Como solicitante, quiero tener la capacidad de encontrar y seleccionar fácilmente a los cuidadores más adecuados para las necesidades de mi familiar.
+
+Descripción: En el siguiente wireframe se muestra los pasos que debe seguir para encontrar un 
+
+[![serach.png](https://i.postimg.cc/L51vxfsd/serach.png)](https://postimg.cc/303gRkp9)
+
+User goal: Como solicitante o cuidador, deseo poder iniciar una conversación con un cuidador específico después de verlo en la lista de búsqueda o en su perfil.
+
+Descripción: Se le muestra la pestaña de mensajes que tienen entre ellos tanto cuidador como solicitante.
+
+[![mensajes.png](https://i.postimg.cc/Df9x8CC7/mensajes.png)](https://postimg.cc/QVqQzqGz)
 
 
+User goal:Como usuario de la plataforma (tanto solicitante como cuidador), quiero tener la capacidad de gestionar de forma segura y transparente los pagos y las transacciones relacionadas con los servicios de cuidado.
 
+Descripción:Se le muestra la configuración de pago , historial,métodos de retiro.
+
+4.5. Web Applications Prototyping.
+
+Una style guideline  es un conjunto de reglas y pautas que establecen la forma en que deben redactarse, diseñarse o presentarse documentos, contenido web, software u otros tipos de trabajos creativos.
+
+A continuación, se especificarán los parámetros implementados en la estructura del proyecto. En particular, se detallarán los principales criterios tomados en cuenta para las decisiones de interacción —como los elementos de la interfaz y los principios aplicados a ellos— relacionados con la 
+
+Arquitectura de Información de nuestra aplicación en las plataformas iOS y Android.
+
+4.6. Domain-Driven Software Architecture.
+4.6.1. Software Architecture Container Diagrams.
+
+[![containers.png](https://i.postimg.cc/TP1Vkmkk/containers.png)](https://postimg.cc/d7MZ37cd)
+
+
+4.6.2. Software Architecture Components Diagrams.
+
+[![diagrmas.png](https://i.postimg.cc/C5TbL2wt/diagrmas.png)](https://postimg.cc/k6s2Tf6F)
+
+4.7. Software Object-Oriented Design.
+4.7.1. Class Diagrams.
+
+[![class-deaf.png](https://i.postimg.cc/vZHfBfdQ/class-deaf.png)](https://postimg.cc/qzSzDtRY)
+
+4.7.2. Class Dictionary.
+
+Clase: usuario
+
+Descripción: Clase base que representa a cualquier usuario de la plataforma.
+
+Atributos:
+
+id: String – Identificador único del usuario.
+
+nombre: String – Nombre completo del usuario.
+
+correo: String – Correo electrónico.
+
+contraseña: String – Contraseña cifrada.
+
+teléfono: String – Número de contacto.
+
+rol: String – Rol del usuario (Solicitante o Cuidador).
+
+* Clase: Solicitante (hereda de Usuario)
+
+Descripción: Usuario que contrata servicios de cuidado.
+
+Atributos:
+
+dirección: String – Dirección de domicilio.
+
+historial Servicios: List<Servicio> – Lista de servicios contratados.
+
+metodoPago: MetodoPago – Método de pago asociado.
+
+Métodos:
+
+agendarServicio() – Programa un nuevo servicio.
+
+cancelarServicio() – Cancela un servicio agendado.
+
+* Clase: Cuidador (hereda de Usuario)
+
+Descripción: Profesional de salud que brinda servicios a través de la plataforma.
+
+Atributos:
+
+especialidad: String – Especialización médica o técnica.
+
+experiencia: Int – Años de experiencia.
+
+disponibilidad: String – Días y horarios disponibles.
+
+certificaciones: List<String> – Certificados y validaciones.
+
+calificaciones: List<Reseña> – Valoraciones recibidas.
+
+Métodos:
+
+aceptarServicio() – Acepta una solicitud de servicio.
+
+completarServicio() – Marca un servicio como completado.
+
+* Clase: Servicio
+
+Descripción: Representa una sesión de cuidado entre un solicitante y un cuidador.
+
+Atributos:
+
+id: String – Identificador del servicio.
+
+fecha: Date – Fecha del servicio.
+
+duracionHoras: Int – Duración en horas.
+
+estado: String – Estado del servicio (pendiente, en curso, completado).
+
+solicitante: Solicitante – Usuario que contrata.
+
+cuidador: Cuidador – Profesional que ofrece el servicio.
+
+Métodos:
+
+iniciar() – Cambia el estado del servicio a "en curso".
+
+finalizar() – Finaliza el servicio.
+
+* Clase: MetodoPago
+
+Descripción: Representa un método de pago registrado por el usuario.
+
+Atributos:
+
+tipo: String – Tipo (tarjeta, transferencia, etc.).
+
+datos: String – Información codificada o token del método.
+
+Métodos:
+
+procesarPago() – Realiza la operación de pago.
+
+* Clase: Pago
+Descripción: Transacción financiera generada por un servicio.
+
+Atributos:
+
+id: String – ID único del pago.
+
+monto: Float – Valor a pagar.
+
+estado: String – Estado del pago (pendiente, procesado).
+
+metodo: MetodoPago – Método utilizado.
+
+Métodos:
+
+generarRecibo() – Emite un comprobante de pago.
+
+*Clase: Reseña
+Descripción: Valoración emitida por el solicitante al finalizar un servicio.
+
+Atributos:
+
+puntuacion: Int – Puntuación del 1 al 5.
+
+comentario: String – Opinión escrita.
+
+autor: Solicitante – Usuario que emite la reseña.
+
+Métodos:
+
+mostrar() – Muestra la reseña.
+
+*Clase: Mensaje
+Descripción: Mensaje enviado entre usuarios a través del sistema de mensajería.
+
+Atributos:
+
+contenido: String – Texto del mensaje.
+
+fecha: Date – Fecha y hora de envío.
+
+emisor: Usuario – Usuario que envió el mensaje.
+
+receptor: Usuario – Usuario que lo recibió.
+
+* Clase: Notificacion
+
+Descripción: Notificación enviada a los usuarios por eventos importantes.
+
+Atributos:
+
+titulo: String – Título de la notificación.
+
+mensaje: String – Contenido del mensaje.
+
+destinatario: Usuario – Usuario que la recibe.
+
+Métodos:
+
+enviar() – Envía la notificación al destinatario.
+
+4.8. Database Design.
+4.8.1. Database Diagram.
+
+[![database.png](https://i.postimg.cc/65z4Dq4F/database.png)](https://postimg.cc/MvMGBWDY)
+
+ENTIDADES:
+
+* Usuarios
+
+Esta entidad representa a las personas que utilizan el sistema. Un usuario puede ser un solicitante, un cuidador, o tener otro rol dentro del sistema.
+
+id: Identificador único del usuario (clave primaria).
+
+nombre: Nombre completo del usuario.
+
+correo: Dirección de correo electrónico del usuario.
+
+contraseña: Contraseña de acceso para autenticar al usuario.
+
+telefono: Número de teléfono del usuario.
+
+rol: Define el tipo de usuario (por ejemplo, "solicitante" o "cuidador").
+
+* Solicitantes
+
+Los solicitantes son los usuarios que piden servicios a los cuidadores. Esta entidad almacena información sobre los solicitantes y sus métodos de pago.
+
+id_usuario: Referencia al id del usuario (clave foránea).
+
+direccion: Dirección de residencia del solicitante.
+
+metodo_pago_id: Identificador del método de pago utilizado por el solicitante.
+
+* Cuidadores
+
+Los cuidadores son los usuarios que prestan los servicios solicitados. Esta entidad almacena información sobre sus especialidades, experiencia y disponibilidad.
+
+id_usuario: Referencia al id del usuario (clave foránea).
+
+especialidad: Área en la que el cuidador está especializado.
+
+experiencia: Años de experiencia del cuidador.
+
+disponibilidad: Horarios en los que el cuidador está disponible para ofrecer servicios.
+
+* Servicios
+
+Esta entidad representa los servicios solicitados por los solicitantes y prestados por los cuidadores. Los servicios incluyen detalles sobre la fecha, estado y duración.
+
+id: Identificador único del servicio (clave primaria).
+
+solicitante_id: Referencia al solicitante que hizo la solicitud.
+
+cuidador_id: Referencia al cuidador que ofrece el servicio.
+
+fecha: Fecha en la que se realiza el servicio.
+
+estado: Estado del servicio (por ejemplo, "pendiente", "completado").
+
+duracion_horas: Duración del servicio en horas.
+
+* Pagos
+
+Los pagos representan las transacciones realizadas para los servicios prestados. Esta entidad incluye detalles sobre el monto, el tipo de pago y el estado.
+
+id: Identificador único del pago (clave primaria).
+
+servicio_id: Referencia al servicio asociado con este pago.
+
+monto: Monto total del pago.
+
+tipo_pago: Tipo de pago (por ejemplo, "tarjeta de crédito", "efectivo").
+
+estado: Estado del pago (por ejemplo, "completado", "pendiente").
+
+* Reseñas
+
+Las reseñas son opiniones que los solicitantes pueden dejar sobre los servicios que recibieron de los cuidadores. Cada reseña tiene una puntuación y un comentario.
+
+id: Identificador único de la reseña (clave primaria).
+
+servicio_id: Referencia al servicio sobre el cual se deja la reseña.
+
+puntuación: Puntuación dada al servicio (por ejemplo, del 1 al 5).
+
+comentario: Comentario dejado por el solicitante sobre el servicio.
+
+* Certificaciones
+
+Los cuidadores pueden tener certificaciones que validan su experiencia o habilidades en ciertas áreas. Esta entidad almacena los detalles de estas certificaciones.
+
+id: Identificador único de la certificación (clave primaria).
+
+cuidador_id: Referencia al cuidador que posee la certificación.
+
+documento: Enlace o nombre del documento que certifica al cuidador.
+
+Institución: Institución que otorga la certificación.
+
+estado: Estado de la certificación (por ejemplo, "válida", "expirada").
+
+*Mensajes
+
+Los mensajes permiten la comunicación entre los usuarios del sistema (solicitantes, cuidadores, etc.). Esta entidad guarda el contenido de los mensajes enviados entre los usuarios.
+
+id: Identificador único del mensaje (clave primaria).
+
+emisor_id: Referencia al usuario que envía el mensaje.
+
+receptor_id: Referencia al usuario que recibe el mensaje.
+
+contenido: Contenido del mensaje.
+
+fecha: Fecha y hora de envío del mensaje.
+
+* Notificaciones
+
+Las notificaciones informan a los usuarios sobre eventos importantes en el sistema, como la aceptación de un servicio o un nuevo mensaje. Esta entidad almacena los detalles de esas notificaciones.
+
+id: Identificador único de la notificación (clave primaria).
+
+usuario_id: Referencia al usuario que recibe la notificación.
+
+Título: Título de la notificación.
+
+mensaje: Contenido de la notificación.
+
+fecha: Fecha y hora en que se genera la notificación.
+
+leído: Indicador de si el usuario ha leído la notificación (valor booleano).
+
+Cada entidad tiene una función específica dentro del sistema, y las relaciones entre ellas se dan a través de claves foráneas (FK). Estas claves foráneas permiten conectar a un solicitante con sus servicios, a un cuidador con sus servicios y pagos, y mucho más. Las flechas en el diagrama muestra cómo se interrelacionan estas entidades.
 
