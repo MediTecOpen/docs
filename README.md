@@ -792,6 +792,36 @@ Resumen: Carlos opina que la plataforma CareMe es excelente, ya que simplifica e
 
 condiciones laborales y recomienda su uso a otros profesionales del sector.
 
+5.3.3.   Evaluaciones según heurísticas
+
+##  Evaluación según Heurísticas UX (basada en entrevistas)
+
+### UX Heuristics & Principles Evaluation
+
+| **Heurística / Principio**                                | **Evaluación basada en las entrevistas**                                                                                                                                              |
+|------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **1. Visibilidad del estado del sistema**                  | Carlos (cuidador) valoró que el sistema registre cada paso, indicando que los usuarios reciben retroalimentación del progreso.                                                        |
+| **2. Correspondencia entre el sistema y el mundo real**    | Angela comprendió fácilmente el recorrido. El lenguaje y funciones coinciden con necesidades reales de usuarios que buscan o brindan cuidados.                                        |
+| **3. Control y libertad del usuario**                      | Angela expresó la importancia de controlar a quién contrata. Esto resalta la necesidad de permitir decisiones informadas y seguras.                                                   |
+| **4. Consistencia y estándares**                           | Diego destacó la funcionalidad bilingüe desde la landing page, lo que muestra coherencia con estándares de accesibilidad.                                                             |
+| **5. Prevención de errores**                               | No se detectaron barreras de uso en la navegación; se infiere que el diseño evita errores comunes gracias a su claridad visual y funcional.                                           |
+| **6. Reconocimiento antes que recuerdo**                   | Carlos mencionó que la interfaz es intuitiva. Esto indica que las acciones posibles están visibles sin necesidad de memorizar pasos previos.                                           |
+| **7. Flexibilidad y eficiencia de uso**                    | La opción bilingüe permite adaptarse a distintos tipos de usuarios, aumentando la accesibilidad y eficiencia.                                                                         |
+| **8. Diseño estético y minimalista**                       | Aunque no mencionado directamente, la claridad destacada por los usuarios sugiere un diseño simple, enfocado y sin elementos innecesarios.                                           |
+| **9. Ayuda al usuario para reconocer, diagnosticar y recuperarse de errores** | Aún no validado en esta fase. Será importante evaluarlo cuando se realicen pruebas con el sistema funcional.                                      |
+| **10. Ayuda y documentación**                              | La facilidad con la que los usuarios comprendieron la aplicación indica que la interfaz está bien diseñada para guiar sin documentación adicional.                                    |
+
+---
+
+### Evaluación general por categoría
+
+| **Categoría**                | **Resultado**                                                                                         |
+|-----------------------------|--------------------------------------------------------------------------------------------------------|
+| **Usabilidad**              | Alta comprensión inicial, navegación fluida, interfaz reconocida como amigable.                       |
+| **Diseño inclusivo**        | Funcionalidad bilingüe valorada. Se recomienda continuar considerando accesibilidad visual y cognitiva.|
+| **Arquitectura de la información** | La organización desde la landing hacia funciones clave fue clara y fácil de seguir según los usuarios.   |
+
+
 5.4.  Video About-the-Product.
 
 Enlace a Youtube: https://youtu.be/5khP2gP1o6c
