@@ -159,17 +159,17 @@ Se utilizan para estructurar jerárquicamente el contenido dentro de cada vista:
 
 Incorporamos íconos simples y reconocibles junto al texto o de forma independiente para:
 
--🔍 Buscar
+- Buscar
 
--🏠 Inicio
+- Inicio
 
--👤 Usuario
+- Usuario
 
--💬 Chat
+-Chat
 
--📅 Calendario
+- Calendario
 
--💳 Pagos
+-Pagos
 
 4. Etiquetas Contextuales / Tooltips:
 
