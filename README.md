@@ -701,3 +701,24 @@ Resumen: Angela observó el recorrido de la aplicación CareMe, pensada para con
  el cuidado a personas desconocidas. Considera importante contar con una plataforma segura, fácil de usar y que inspire confianza para encontrar cuidadores responsables.
 
 
+*ANEXOS
+
+Repositorio de la documentación:
+
+https://github.com/MediTecOpen/docs
+
+Repositorio de la Landing Page :
+
+https://github.com/MediTecOpen/LandingPage
+
+Repositorio de la Front-End Web Application (TB1):
+
+https://github.com/MediTecOpen/frontend-angular
+
+Repositorio del backend:
+
+https://github.com/MediTecOpen/backend
+
+Landing Page desplegada:
+
+https://meditecopen.github.io/LandingPage/
