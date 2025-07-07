@@ -716,6 +716,19 @@ Durante este Sprint, el equipo trabajó de forma colaborativa para desarrollar l
 
 En esta sección se detalla el proceso de planificación correspondiente al cuarto sprint del proyecto. El equipo definió los objetivos a alcanzar durante este ciclo de trabajo. Asimismo, se identificaron las tareas específicas, se asignaron responsables y se estableció el Sprint Backlog correspondiente, con el fin de asegurar un avance ordenado y colaborativo en el cumplimiento de las metas propuestas.
 
+###  Sprint Backlog – Sprint 4
+
+| Sprint # | User Story ID | User Story Title                       | Task ID | Task Title                         | Description                                                                                                 | Estim. | Assigned                | Status |
+|----------|----------------|----------------------------------------|---------|------------------------------------|-------------------------------------------------------------------------------------------------------------|--------|-------------------------|--------|
+| Sprint 4 | HU31           | Aplicar mejoras en los estilos         | 001     | Aplicar mejoras en los estilos     | Aplicar mejoras en los estilos y estructura visual de la app.                                               | 3      | Stanley Gutierrez       | Done   |
+| Sprint 4 | HU32           | Validación de formularios              | 002     | Validación de formularios          | Implementar validaciones de campos en los formularios (registro, login, contratación).                     | 2      | Gabriel Lapa de la Cruz | Done   |
+| Sprint 4 | HU33           | Registro de historial de contrataciones| 003     | Registro de historial              | Permitir al solicitante visualizar servicios pasados con datos como fecha, cuidador, duración y estado.    | 3      | Jack Eddie Roque Tello  | Done   |
+| Sprint 4 | HU34           | Mostrar estado del cuidador            | 004     | Mostrar estado del cuidador        | Mostrar si un cuidador está disponible o inactivo en su perfil en tiempo real.                              | 3      | Johan Karl Bottger      | Done   |
+| Sprint 4 | HU35           | Swagger & documentación                | 005     | Swagger & documentación            | Generar la documentación OpenAPI (Swagger) para todos los endpoints REST expuestos por el backend.          | 2      | Juan Santos             | Done   |
+| Sprint 4 | HU36           | Simulación de pago seguro              | 006     | Simulación de pago seguro          | Simular procesos de pago mediante frontend y mostrar notificaciones de éxito o error al usuario.            | 3      | Jack Eddie Roque Tello  | Done   |
+| Sprint 4 | HU37           | Filtros por ubicación y horarios       | 007     | Filtros por ubicación y horarios   | Optimizar los filtros de búsqueda para mostrar cuidadores cercanos según dirección actual y horario requerido.| 2      | Gabriel Lapa de la Cruz | Done   |
+| Sprint 4 | HU38           | Notificaciones nuevas                  | 008     | Notificaciones nuevas              | Implementar notificaciones al recibir nuevos mensajes entre usuario y cuidador (icono, alerta visual).      | 3      | Stanley Gutierrez       | Done   |
+
 
 ### 5.3.4.1 Sprint Planning 4
 
@@ -757,7 +770,22 @@ A continuación la matriz de Liderazgo y Colaboración (LACX), donde “L” ind
 El Sprint Backlog 4 está centrado en el desarrollo del back-end de nuestro proyecto. Durante esta etapa, se priorizará el desarrollo de APIs en las siguientes funcionalidades: User Authentication, Caregivers Profile Management, Contact Service.
 Se usará Spring Boot con Java como lenguaje base y MySQL como gestor de base de datos.
 
+| **User Story ID** | **Título de Historia de Usuario**      | **Task ID** | **Título de Tarea**                     | **Descripción**                                                                                                                    | **Estimación** | **Asignado a**                  | **Estado** |
+|-------------------|-----------------------------------------|-------------|------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|----------------|----------------------------------|------------|
+
+
 5.2.4.4. Development Evidence for Sprint Review.
+
+###  Historial de Commits – Sprint 4
+
+| Repository       | Branch              | Commit ID | Commit Message                        | Commit Message Body                                                                                           | Committed on (Date) |
+|------------------|---------------------|-----------|----------------------------------------|---------------------------------------------------------------------------------------------------------------|----------------------|
+| careme-frontend  | feature/ui-fixes    | a12f3bc   | fix: update layout and button styles   | Se actualizaron estilos de botones, márgenes y colores según el rediseño UX sugerido en validación.           | 02/07/2025           |
+| careme-backend   | feature/swagger-docs| 1d9e2ac   | docs: add Swagger documentation        | Se creó archivo swagger.yaml documentando endpoints de usuarios y cuidadores con ejemplos.                    | 05/07/2025           |
+| careme-frontend  | feature/validation  | 9e8bc6d   | feat: add frontend form validations    | Validaciones en formularios de registro, login y creación de servicios. Mensajes claros para errores.         | 03/07/2025           |
+| careme-backend   | main                | f32e9da   | fix: correct filtering in caregiver API| Se corrigieron bugs en filtros por especialización y disponibilidad en el listado de cuidadores.              | 05/07/2025           |
+| careme-frontend  | feature/history     | 0c9e7bb   | feat: add service history view         | Se implementó sección de historial para solicitante. Muestra servicios completados con datos clave.           | 01/07/2025           |
+
 5.2.4.5. Execution Evidence for Sprint Review:
 
 Link de video de execution evidence: 
