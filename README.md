@@ -710,6 +710,91 @@ Durante este Sprint, el equipo trabajó de forma colaborativa para desarrollar l
 [![gity.png](https://i.postimg.cc/jdDvgHBD/gity.png)](https://postimg.cc/BXGxtKS3)
 
 
+5.2.4.   Sprint 4
+
+5.2.4.1. Sprint Planning 4
+
+En esta sección se detalla el proceso de planificación correspondiente al cuarto sprint del proyecto. El equipo definió los objetivos a alcanzar durante este ciclo de trabajo. Asimismo, se identificaron las tareas específicas, se asignaron responsables y se estableció el Sprint Backlog correspondiente, con el fin de asegurar un avance ordenado y colaborativo en el cumplimiento de las metas propuestas.
+
+
+### 5.3.4.1 Sprint Planning 4
+
+| Elemento                            | Detalle                                                                                                       |
+|------------------------------------|---------------------------------------------------------------------------------------------------------------|
+| **Fecha**                          | 05 de julio de 2024                                                                                           |
+| **Hora**                           | 18:00 PM                                                                                                      |
+| **Lugar**                          | Videoconferencia mediante Google Meet                                                                         |
+| **Preparado por**                 | Jack Roque, Johan Bottger, Gabriel Lapa de la Cruz, Juan Santos, Stanley Gutierrez                           |
+| **Asistentes**                     | Jack Roque, Johan Bottger, Gabriel Lapa de la Cruz, Juan Santos, Stanley Gutierrez                           |
+| **Sprint 4 Review Summary**        | Se logró el objetivo propuesto: desarrollo de las secciones *user authentication*, *caregivers profile management* y *contact*. El equipo cumplió satisfactoriamente las metas establecidas. |
+| **Sprint 4 Retrospective Summary** | Se reconoció el progreso del proyecto y del equipo. Se acordó priorizar funcionalidades críticas del sistema. |
+| **Sprint Goal**                    | Implementar funcionalidades esenciales: autenticación de usuarios, gestión de perfiles de cuidadores y contacto. |
+| **Sprint 4 Velocity**              | El equipo definió una *velocity* de 36 Story Points, manteniendo un ritmo sostenible basado en los sprints anteriores. |
+| **Total de Story Points**          | 36 SP                                                                                                         |
+
+
+5.2.4.2. Aspect Leaders and Collaborators
+
+A continuación la matriz de Liderazgo y Colaboración (LACX), donde “L” indica el líder de cada aspecto y “C” a sus colaboradores:
+
+### 5.3.4.2 Aspect Leaders and Collaborators
+
+| **Miembro (Apellido, Nombre)**       | **Usuario GitHub**  | **User Authentication** | **Caregiver Profile Management** | **Contact Service** |
+|-------------------------------------|----------------------|--------------------------|----------------------------------|----------------------|
+| Santos Torres, Juan Manuel          | JuanManuel312        | C                        | C                                | C                    |
+| Bottger Salazar, Johan Karl         | DeskJobo             | C                        | C                                | C                    |
+| Gutierrez Tume, Stanley Jeremy      | Stan-gt213891        | C                        | L                                | C                    |
+| Roque Tello, Jack Eddie             | UPC-Skylar           | C                        | C                                | L                    |
+| Lapa de la Cruz, Gabriel Omar       | Gabo0722             | L                        | C                                | C                    |
+
+> **Leyenda**:  
+> **L** = Líder del aspecto  
+> **C** = Colaborador del aspecto
+
+
+5.2.4.3. Sprint Backlog 4
+
+El Sprint Backlog 4 está centrado en el desarrollo del back-end de nuestro proyecto. Durante esta etapa, se priorizará el desarrollo de APIs en las siguientes funcionalidades: User Authentication, Caregivers Profile Management, Contact Service.
+Se usará Spring Boot con Java como lenguaje base y MySQL como gestor de base de datos.
+
+5.2.4.4. Development Evidence for Sprint Review.
+5.2.4.5. Execution Evidence for Sprint Review:
+
+Link de video de execution evidence: 
+
+ https://upcedupe-my.sharepoint.com/personal/u202216831_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202216831%5Fupc%5Fedu%5Fpe%2FDocuments%2FOpen%20Source%20%2D%20CareMe%2Fexecution%2Devidence%2DCareMe%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E2ce9b9bc%2Ddb8f%2D4fa7%2Dba47%2Dff4326f16669
+
+5.2.4.6. Services Documentation Evidence for Sprint Review.
+
+### Documentación de Endpoints - Servicio: Caregivers
+
+| **Endpoint**                    | **Acción Implementada**                     | **Método HTTP** | **Sintaxis de Llamada**                     | **Parámetros**                                                                                   |
+|--------------------------------|---------------------------------------------|------------------|----------------------------------------------|---------------------------------------------------------------------------------------------------|
+| `/caregivers`                  | Obtener todos los cuidadores                | GET              | `/api/v1/caregivers`                         | Ninguno                                                                                          |
+| `/caregivers/{id}`             | Obtener cuidador por ID                     | GET              | `/api/v1/caregivers/{id}`                    | `id` (Path)                                                                                       |
+| `/caregivers`                  | Crear nuevo cuidador                        | POST             | `/api/v1/caregivers`                         | Body: `name`, `age`, `especialty`, `yearsOfExperience`, `location`, `phoneNumber`, `professionalTitle`, `userId` |
+| `/caregivers/{id}`             | Actualizar información de un cuidador       | PUT              | `/api/v1/caregivers/{id}`                    | Path: `id` <br> Body: `name`, `age`, `especialty`, `yearsOfExperience`, `location`, `phoneNumber`, `professionalTitle`, `userId` |
+| `/caregivers/{id}`             | Eliminar cuidador                           | DELETE           | `/api/v1/caregivers/{id}`                    | `id` (Path)                                                                                       |
+| `/caregivers/specialty`        | Obtener cuidadores por especialidad         | GET              | `/api/v1/caregivers/specialty`               | Opcional: `specialty` (Query)                                                                    |
+| `/caregivers/experience`       | Obtener cuidadores por años de experiencia  | GET              | `/api/v1/caregivers/experience`              | Opcional: `years` (Query)                                                                        |
+
+
+
+### Documentación de Endpoints - Servicio: User Authentication
+
+| **Endpoint**            | **Acción Implementada**           | **Método HTTP** | **Sintaxis de Llamada**          | **Parámetros**                                                              |
+|------------------------|-----------------------------------|------------------|----------------------------------|------------------------------------------------------------------------------|
+| `/users`               | Obtener todos los usuarios        | GET              | `/api/v1/users`                  | Ninguno                                                                      |
+| `/users/{id}`          | Obtener usuario por ID            | GET              | `/api/v1/users/{id}`             | `id` (Path)                                                                  |
+| `/users`               | Crear nuevo usuario               | POST             | `/api/v1/users`                  | Body: `firstName`, `email`, `password`, `phone`, `role`                     |
+| `/users/{id}`          | Actualizar información del usuario| PUT              | `/api/v1/users/{id}`             | Path: `id` <br> Body: mismos campos que en el POST                           |
+| `/users/{id}`          | Eliminar usuario                  | DELETE           | `/api/v1/users/{id}`             | `id` (Path)                                                                  |
+
+
+5.2.4.7. Software Deployment Evidence for Sprint Review.
+5.2.4.8. Team Collaboration Insights during Sprint.
+
+
 5.3.     Validation Interviews.
 
 En esta sección de Diseño de Entrevistas, se detallan las preguntas diseñadas para recopilar información de los usuarios del sistema CareMe. El objetivo de las entrevistas es validar la propuesta de valor, la funcionalidad y la usabilidad de la plataforma, enfocándose en dos segmentos 
